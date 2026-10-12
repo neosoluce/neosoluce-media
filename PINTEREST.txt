@@ -1,0 +1,3 @@
+# Nom exact du tableau Pinterest où épingler (une seule ligne, sans guillemets).
+# Laisser vide tant que Noah ne l'a pas indiqué : l'agent saute alors Pinterest.
+
