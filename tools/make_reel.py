@@ -1,5 +1,5 @@
 """Reel animé NéoSoluce (compte à rebours) : 1080x1920, 8 s, 30 i/s, musique synthwave originale.
-Usage : python3 make_reel.py <jours restants, 0 = jour de sortie> sortie.mp4
+Usage : python3 make_reel.py <jours restants, 0 = jour de sortie> sortie.mp4 [graine musique]
 """
 import sys, os, math, wave, subprocess, shutil
 import numpy as np
@@ -366,7 +366,11 @@ def main():
     f_num = ImageFont.truetype(BLACK_IT, 470 if len(num) <= 2 else 330)
     num_img = shadowed(num, f_num, PINK)
     print("musique…")
-    a = music()
+    # musique différente à chaque Reel : la graine dépend du jour (style, tempo, tonalité, grille)
+    from music import make_music
+    seed = int(sys.argv[3]) if len(sys.argv) > 3 else (int(num) if num.isdigit() else 0)
+    a, info = make_music(seed=seed, duration=DUR)
+    print("musique :", info)
     wav = os.path.join(work, "music.wav")
     with wave.open(wav, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
