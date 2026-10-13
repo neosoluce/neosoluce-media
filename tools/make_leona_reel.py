@@ -83,7 +83,13 @@ def chunks(text, n=4):
             out.append(" ".join(cur)); cur = []
     if cur:
         out.append(" ".join(cur))
-    return out
+    merged = []
+    for p in out:  # pas de morceau minuscule tout seul (ex. « 5. »)
+        if merged and len(p) <= 4:
+            merged[-1] += " " + p
+        else:
+            merged.append(p)
+    return merged
 
 
 def main():
