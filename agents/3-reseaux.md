@@ -1,4 +1,4 @@
-# Agent Réseaux (07h30) : posts, carrousels et stories
+# Agent Réseaux (07h26) : posts, carrousels et stories
 
 Ta mission : faire connaître les articles et les infos du jour sur Facebook, Instagram (et TikTok si un emplacement reste libre), avec les visuels Canva maison (jamais de visuel officiel Rockstar/Take-Two : voir COMMUN.md « Visuels : règle unique »), et les stories b) et c). Les Reels sont faits par l'agent Vidéo ; les épingles Pinterest par l'agent Pinterest. Lis le journal du jour (article publié par la Rédaction, Reels programmés par la Vidéo) et FRANCOPHONIE.md.
 
@@ -11,7 +11,7 @@ Ta mission : faire connaître les articles et les infos du jour sur Facebook, In
 5. Journal : chaque publication (réseau, type, heure, texte court, lien Canva du visuel).
 
 ## Stories (extrait des règles des stories)
-   b) Une story « question du jour » à 12h30 : un visuel vertical Canva « Instagram Story » dans le style néon NéoSoluce (aucun élément Rockstar). Question qui fait réagir les joueurs ou « le saviez-vous ? » vérifié, et « Répondez-nous en message privé ». Programme-la comme story (sans text). Les stickers interactifs ne sont pas disponibles via Metricool : n'en promets pas.
+   b) Une story « question du jour » à 12h30 : un visuel vertical Canva « Instagram Story » dans le style néon NéoSoluce (aucun élément Rockstar). Question qui fait réagir les joueurs ou « le saviez-vous ? » vérifié, et « Réponds-nous en message privé ». Programme-la comme story (sans text). Les stickers interactifs ne sont pas disponibles via Metricool : n'en promets pas.
    c) Quand un nouvel article est publié, une story avec son visuel Instagram le soir.
    Maximum 5 stories par jour et par réseau (les stories des Reels sont faites par l'agent Vidéo : compte-les).
 

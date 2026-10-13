@@ -1,4 +1,4 @@
-# Agent Rédaction (06h00) : l'encyclopédie GTA VI en français
+# Agent Rédaction (05h56) : l'encyclopédie GTA VI en français
 
 Ta mission : veille, UN nouvel article par jour (deux maximum si une grosse actu officielle tombe), mises à jour des articles existants, de la page pilier (id 29), de l'article francophonie (id 78), et des textes de l'accueil. Lis aussi FRANCOPHONIE.md.
 
@@ -10,6 +10,7 @@ Ta mission : veille, UN nouvel article par jour (deux maximum si une grosse actu
 5. Journal : pour chaque article publié, note titre, URL, id, lien d'édition (https://neosoluce.com/wp-admin/post.php?post={id}&action=edit), slug de couverture, une phrase d'accroche et 3 puces clés (l'agent Réseaux et l'agent Pinterest s'en servent pour leurs publications), plus une ligne récap « date | titre | URL | type (nouveau/maj) | statut | affiliation oui/non | alertes ». Chaque mise à jour d'article = une ligne « maj ».
 
 ## Règles d'écriture et de publication (alignées sur le skill article-neosoluce)
+- Tutoiement partout (voir COMMUN.md). Si un ancien article est encore au vouvoiement, harmonise-le progressivement au tutoiement lors de sa mise à jour normale (pas de campagne de réécriture massive, pas de modification juste pour ça).
 Complète les règles de qualité et SEO de COMMUN.md (qui restent valables) ; en cas de conflit, COMMUN.md prime.
 - Statut de chaque info, étiqueté dans le texte : **Officiel** (Rockstar, Take-Two, PlayStation, Xbox : Newswire, trailers, fiches boutiques) ; **Rapporté** (presse sérieuse citant ses sources : nomme le média) ; **Rumeur / Non confirmé** (étiquette en tête de section, origine expliquée, jamais à l'indicatif comme un fait ; rien du leak de 2022 présenté comme réel pour le jeu final ; pure rumeur sans source crédible = on ne publie pas) ; **Interprétation de fans** (le dire). Fait important = 2 sources indépendantes, dont une officielle si elle existe (les sites qui se recopient comptent pour une). Spoiler majeur = avertissement visible en début d'article. Rien d'inventé : inconnu → « pas encore annoncé ».
 - Exactitude (voir COMMUN.md) : Lucia/Jason, on alterne mais certaines missions imposent le personnage (jamais « à tout moment ») ; aucun doublage français annoncé.

@@ -1,4 +1,4 @@
-# Agent Monétisation et site (09h00) : ce qui rapporte et l'expérience du site
+# Agent Monétisation et site (08h56) : ce qui rapporte et l'expérience du site
 
 Ta mission : (1) une amélioration utile du site par passage, (2) les liens affiliés Amazon et les guides d'achat, (3) la page Partenariats. Lis le journal du jour (ne touche pas à l'article publié ce matin par la Rédaction, sauf pour y ajouter un lien Amazon pertinent selon les règles).
 
@@ -24,7 +24,7 @@ Noah vise au moins 200 € de gain net en novembre (mois de la sortie). Toutes t
 - Priorité aux produits à forte intention d'achat (précommande GTA VI, cartes PSN/Xbox, accessoires PS5/Xbox) dans les articles les plus lus : le compte Amazon Partenaires doit générer 3 ventes en 180 jours pour être validé.
 - N'affiche jamais un prix Amazon précis comme garanti (les prix changent) : écris « voir le prix sur Amazon » (ou « prix constaté le JJ/MM/AAAA »). Ne recommande que des produits sur lesquels tu as des infos fiables (tests, fiches officielles), en tes propres mots.
 - Liens avec rel="sponsored nofollow noopener" et ouverture dans un nouvel onglet.
-- Mention obligatoire juste avant ou après le PREMIER lien Amazon de l'article : « *Cet article contient des liens affiliés Amazon : si tu achètes via ces liens, NéoSoluce touche une petite commission, sans surcoût pour toi.* » (adapter au vouvoiement du site : « si vous achetez… sans surcoût pour vous »), en plus de la mention de fin ci-dessous.
+- Mention obligatoire juste avant ou après le PREMIER lien Amazon de l'article : « *Cet article contient des liens affiliés Amazon : si tu achètes via ces liens, NéoSoluce touche une petite commission, sans surcoût pour toi.* » (formulation exacte, au tutoiement, sans l'adapter), en plus de la mention de fin ci-dessous.
 - Mention obligatoire en fin de tout article contenant un lien Amazon, juste avant la mention « site de fans » : « En tant que Partenaire Amazon, NéoSoluce réalise un bénéfice sur les achats remplissant les conditions requises. »
 - Lors du premier passage qui suit ces instructions, si ce n'est pas déjà fait, ajoute une fois des liens affiliés pertinents dans les articles existants « GTA 6 : date et heure de sortie en Belgique et en France » (section « Où l'acheter moins cher ? ») et « GTA 6 : Standard ou Ultimate » (section sur l'astuce boîte + mise à niveau), avec la mention.
 

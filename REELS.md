@@ -46,15 +46,15 @@ Les captures que Noah filme sur sa propre console sont déposées dans le dossie
   supprime-le et le JSON, commit le Reel et ajoute la ligne « date | fichier capture | reel » à `captures-utilisees.txt`.
 - Ce Reel remplace le Reel info de 16h00 ce jour-là (même programmation : Instagram + Facebook avec un titre de la
   bibliothèque Instagram selon les règles ci-dessus, TikTok à 16h30, story à 17h00). Légende : l'astuce d'abord,
-  question en fin, et « Capture NéoSoluce » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
+  question en fin, et « Capture NéoSoluce · © Rockstar Games » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
 - Une capture peut servir 2 fois maximum (deux passages différents, encarts différents).
 - Si `captures/` est vide après le 19 novembre, rappelle à Noah dans le récap comment déposer ses captures (captures/README.md).
 
 ## Images et vidéos OFFICIELLES de Rockstar : INTERDITES (règle en vigueur, voir agents/COMMUN.md « Visuels : règle unique »)
-Aucun visuel officiel Rockstar/Take-Two (captures, artworks, jaquette, portraits et clips de personnages, trailers,
+Aucun visuel officiel Rockstar/Take-Two (captures officielles ou d'autrui, artworks, jaquette, portraits et clips de personnages, trailers,
 extraits de trailer, logos, fichiers du dossier `officiel/` et `officiel/videos/`) dans un Reel, un post, une story ou
 une épingle, tant que Noah n'a pas confirmé explicitement par écrit une licence Take-Two (demande en cours, seules des
-réponses automatiques reçues). Le crédit « © Rockstar Games » ne rend pas l'usage autorisé. `tools/make_official.py`
+réponses automatiques reçues). Le crédit « © Rockstar Games » ne rend pas autorisé un visuel officiel ou d'autrui. Seule exception : les captures de jeu faites par Noah lui-même, après la sortie, avec la mention « © Rockstar Games » (voir ci-dessus et COMMUN.md). `tools/make_official.py`
 n'est plus utilisé ; `officiel/` et `officiel-utilisees.txt` sont conservés sans modification.
 Autorisés : visuels générés par IA (néon Vice City, sans logo, sans texte, sans personnage existant), créations maison
 (Reels `make_reel.py` / `make_info_reel.py`, Canva maison, Léona et les vidéos OpenArt de Noah), images libres de droits
