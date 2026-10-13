@@ -30,9 +30,8 @@ Comme Instagram et Facebook partagent la même publication Metricool, mets les d
 `audioConfiguration` ne s'applique qu'à Instagram.
 
 ## Reels « gameplay » à partir des captures de Noah (à partir du 19 novembre 2026)
-Les seules images de GTA VI autorisées dans nos vidéos sont les captures que Noah filme sur sa propre console
-et dépose dans le dossier `captures/` de ce dépôt (voir captures/README.md). Jamais de trailer, d'image Rockstar,
-de vidéo d'un autre créateur ni de vidéo qui a fuité.
+Les captures que Noah filme sur sa propre console sont déposées dans le dossier `captures/` de ce dépôt
+(voir captures/README.md). Jamais de vidéo d'un autre créateur ni de vidéo qui a fuité.
 - À chaque passage, regarde s'il y a dans `captures/` une vidéo pas encore utilisée (liste dans `captures-utilisees.txt`).
 - S'il y en a une : écris 2 à 5 encarts utiles (astuce, soluce express, détail, emplacement…) en lien avec ce qu'on voit
   (lis le .txt de même nom s'il existe ; vérifie chaque fait dans au moins deux sources fiables), puis :
@@ -44,3 +43,26 @@ de vidéo d'un autre créateur ni de vidéo qui a fuité.
   question en fin, et « Capture NéoSoluce » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
 - Une capture peut servir 2 fois maximum (deux passages différents, encarts différents).
 - Si `captures/` est vide après le 19 novembre, rappelle à Noah dans le récap comment déposer ses captures (captures/README.md).
+
+## Publications avec les images OFFICIELLES de Rockstar (dossier `officiel/`, dès maintenant)
+Noah dépose dans `officiel/` les images téléchargées sur https://www.rockstargames.com/VI/media (voir officiel/README.md).
+Rockstar/Take-Two tolère l'usage de ses contenus par les fans SANS BUT COMMERCIAL : on les utilise donc uniquement
+sur Instagram, Facebook et TikTok, en publication de fan, avec ces règles strictes :
+- jamais sur une publication sponsorisée, en partenariat, boostée, ni avec un lien Amazon ou un code promo ;
+  la légende apporte une info et pose une question ; elle peut citer « Plus d'infos : neosoluce.com » une fois, sans « achetez » ;
+- crédit « Image officielle © Rockstar Games » toujours visible (le script l'ajoute) et rappelé en fin de légende ;
+- image non déformée, pas de spoiler, jamais une image qui ne vient pas du site officiel de Rockstar ;
+- jamais sur le site neosoluce.com tant que Take-Two n'a pas accordé de licence écrite (demande envoyée à copyright@take2games.com) ;
+- en cas de demande de retrait de Rockstar/Take-Two : retirer immédiatement et le signaler en tête du récap.
+Formats (python3 tools/make_official.py) :
+- `post`  : post Instagram/Facebook 1080x1350 avec encart néon (badge, titre ≤ 40 car., texte ≤ 90 car.) ;
+- `story` : story 1080x1920 (même encart) ;
+- `reel`  : Reel de 3 à 6 images officielles avec zoom lent, encarts et musique originale :
+  `python3 tools/make_official.py reel cartes.json reels/AAAA-MM-JJ-officiel.mp4 <graine>` avec
+  cartes.json = [{"image": "officiel/<fichier>", "badge": "...", "titre": "...", "texte": "..."}, ...].
+Rythme : quand `officiel/` contient des images, le Reel info de 16h00 utilise de préférence `make_official.py reel`
+(un jour sur deux au moins), et la story « question du jour » de 12h30 peut utiliser `make_official.py story`
+au lieu de Canva. Varie les images (liste dans `officiel-utilisees.txt` : date | image | publication ; une image
+au maximum une fois par semaine). Chaque fait écrit sur l'image doit être vérifié dans une source fiable et
+correspondre à ce qu'on voit, sans inventer de détail sur l'image.
+Si `officiel/` est vide, rappelle une fois par semaine à Noah, dans le récap, comment le remplir (officiel/README.md).
