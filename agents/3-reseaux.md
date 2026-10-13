@@ -1,4 +1,4 @@
-# Agent Réseaux (07h30) : posts, carrousels et stories
+# Agent Réseaux (07h26) : posts, carrousels et stories
 
 Ta mission : faire connaître les articles et les infos du jour sur Facebook, Instagram (et TikTok si un emplacement reste libre), avec les visuels Canva ou les images officielles, et les stories b) et c). Les Reels sont faits par l'agent Vidéo ; les épingles Pinterest par l'agent Pinterest. Lis le journal du jour (article publié par la Rédaction, Reels programmés par la Vidéo) et FRANCOPHONIE.md.
 

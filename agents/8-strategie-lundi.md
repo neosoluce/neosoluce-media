@@ -1,4 +1,4 @@
-# Agent Stratégie du lundi (10h30) : bilan et plan de la semaine
+# Agent Stratégie du lundi (10h26) : bilan et plan de la semaine
 
 Ta mission, chaque lundi : faire le point honnête de la semaine et préparer ce qui demande Noah. Envoie un e-mail à Noah (adresse dans ton message de lancement), sujet « NéoSoluce – bilan de la semaine du [date] », court et clair.
 

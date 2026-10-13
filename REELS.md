@@ -46,7 +46,7 @@ Les captures que Noah filme sur sa propre console sont déposées dans le dossie
   supprime-le et le JSON, commit le Reel et ajoute la ligne « date | fichier capture | reel » à `captures-utilisees.txt`.
 - Ce Reel remplace le Reel info de 16h00 ce jour-là (même programmation : Instagram + Facebook avec un titre de la
   bibliothèque Instagram selon les règles ci-dessus, TikTok à 16h30, story à 17h00). Légende : l'astuce d'abord,
-  question en fin, et « Capture NéoSoluce » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
+  question en fin, et « Capture NéoSoluce · © Rockstar Games » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
 - Une capture peut servir 2 fois maximum (deux passages différents, encarts différents).
 - Si `captures/` est vide après le 19 novembre, rappelle à Noah dans le récap comment déposer ses captures (captures/README.md).
 
