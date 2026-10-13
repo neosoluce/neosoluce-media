@@ -87,7 +87,7 @@ Si `officiel/` est vide, rappelle une fois par semaine à Noah, dans le récap, 
 
 ## Léona, la mascotte (vidéos générées par Noah avec OpenArt)
 Lis mascotte/LEONA.md (fiche personnage, ton, règles). Léona n'est jamais appelée « Leonida ».
-- Chaque jour, dans le journal (section « Pour Noah », reprise dans le récap), propose à Noah UN script de Léona (18 à 24 mots, vraie info vérifiée avec source, chute
+- UNE FOIS PAR SEMAINE seulement (le lundi ; les crédits OpenArt de Noah sont limités), dans le journal (section « Pour Noah », reprise dans le récap), propose à Noah UN script de Léona, en rappelant qu'il peut aussi essayer Google Flow (gratuit, 50 crédits par jour) avec la même image de départ (18 à 24 mots, vraie info vérifiée avec source, chute
   joueuse) et le prompt OpenArt complet prêt à copier-coller : fiche fixe + tenue sexy mais habillée liée au sujet +
   décor + « She speaks in French with a confident, playful female voice, perfectly lip-synced: "<phrase écrite comme
   elle se prononce>" » + « No subtitles, no text, no letters anywhere. ». Note le script dans mascotte/scripts.txt
