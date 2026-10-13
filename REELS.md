@@ -80,3 +80,20 @@ au lieu de Canva. Varie les images (liste dans `officiel-utilisees.txt` : date |
 au maximum une fois par semaine). Chaque fait écrit sur l'image doit être vérifié dans une source fiable et
 correspondre à ce qu'on voit, sans inventer de détail sur l'image.
 Si `officiel/` est vide, rappelle une fois par semaine à Noah, dans le récap, comment le remplir (officiel/README.md).
+
+## Léona, la mascotte (vidéos générées par Noah avec OpenArt)
+Lis mascotte/LEONA.md (fiche personnage, ton, règles). Léona n'est jamais appelée « Leonida ».
+- Chaque jour, dans le récap, propose à Noah UN script de Léona (18 à 24 mots, vraie info vérifiée avec source, chute
+  joueuse) et le prompt OpenArt complet prêt à copier-coller : fiche fixe + tenue sexy mais habillée liée au sujet +
+  décor + « She speaks in French with a confident, playful female voice, perfectly lip-synced: "<phrase écrite comme
+  elle se prononce>" » + « No subtitles, no text, no letters anywhere. ». Note le script dans mascotte/scripts.txt
+  (date | sujet | texte exact | texte prononcé).
+- Si mascotte/videos/ contient une vidéo pas encore listée dans mascotte/utilisees.txt : retrouve son texte dans
+  mascotte/scripts.txt (même sujet que le nom du fichier ; si tu ne le trouves pas, ne la publie pas et demande à Noah
+  ce qu'elle dit), puis python3 tools/make_leona_reel.py mascotte/videos/<fichier> "<texte exact>" reels/AAAA-MM-JJ-leona.mp4,
+  regarde l'aperçu avec Read (sous-titres lisibles, enseigne qui ne cache pas le visage), supprime l'aperçu, commit,
+  ajoute la ligne « date | fichier | reel » à mascotte/utilisees.txt.
+- Programmation : Reel Instagram + Facebook à 12h00 (garde la voix de Léona : PAS d'audioConfiguration Instagram,
+  la voix est le son), instagramData isAiGenerated true, TikTok 30 min après avec tiktokData isAigc true. Compte-le
+  dans la limite de 3 publications par réseau et par jour. Légende : l'info d'abord, une question, « Léona t'en dit
+  plus sur neosoluce.com (lien en bio) », hashtags, puis « Vidéo générée par IA ». Jamais boostée ni sponsorisée.
