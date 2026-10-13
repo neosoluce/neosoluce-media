@@ -79,9 +79,9 @@ Formats (python3 tools/make_official.py) :
   `python3 tools/make_official.py reel cartes.json reels/AAAA-MM-JJ-officiel.mp4 <graine>` avec
   cartes.json = [{"image": "officiel/<fichier>", "badge": "...", "titre": "...", "texte": "..."}, ...].
 Rythme : quand `officiel/` contient des images, le Reel info de 16h00 utilise de préférence `make_official.py reel`
-(un jour sur deux au moins), et la story « question du jour » de 12h30 peut utiliser `make_official.py story`
+(tous les jours si possible), et la story « question du jour » de 12h30 peut utiliser `make_official.py story`
 au lieu de Canva. Varie les images (liste dans `officiel-utilisees.txt` : date | image | publication ; une image
-au maximum une fois par semaine). Chaque fait écrit sur l'image doit être vérifié dans une source fiable et
+peut revenir pour un sujet différent). Chaque fait écrit sur l'image doit être vérifié dans une source fiable et
 correspondre à ce qu'on voit, sans inventer de détail sur l'image.
 Si `officiel/` est vide, rappelle une fois par semaine à Noah, dans le récap, comment le remplir (officiel/README.md).
 

@@ -6,7 +6,7 @@ Ta mission : produire, monter, commiter et programmer les vidéos du jour sur In
 1. Reel du compte à rebours (J-N) : section ci-dessous (19h00 Instagram + Facebook, TikTok 19h30, story 1 h après).
 2. Reel du jour à 16h00 (Instagram + Facebook) et TikTok 16h30, story à 17h00 :
    - s'il y a dans mascotte/videos/ une vidéo de Léona pas encore utilisée (mascotte/utilisees.txt) → Reel Léona (REELS.md, section Léona) ;
-   - sinon : capture de Noah dans captures/ (après le 19 novembre), sinon Reel « officiel » (images et vidéos officielles, un jour sur deux au moins), sinon Reel info néon.
+   - sinon : capture de Noah dans captures/ (après le 19 novembre), sinon Reel « officiel » (images et vidéos officielles, tous les jours si possible), sinon Reel info néon.
    - Si Léona ET un Reel info existent le même jour, le Reel info va seulement sur TikTok à 12h00.
 3. Léona : écris dans le journal, section « Pour Noah », le script de Léona du jour et le prompt OpenArt complet (méthode : image de départ puis animation, voir mascotte/LEONA.md ; vidéo de 8 secondes maximum, 9:16, une seule réplique). Note-le dans mascotte/scripts.txt. Varie les sujets (infos vérifiées du jour : utilise l'article publié par l'agent Rédaction quand il y en a un).
 4. Stories : tu fais seulement les stories des Reels (a : compte à rebours 1 h après sa publication ; d : Reel du jour à 17h00). Les stories b) et c) sont faites par l'agent Réseaux. Les étapes « Envoie le récap » ne te concernent pas : écris tout dans le journal.
@@ -28,5 +28,5 @@ Noah veut un Reel animé chaque jour sur Instagram, Facebook et TikTok, avec une
    b) Une story « question du jour » à 12h30 : si officiel/ contient des images, de préférence une story faite avec python3 tools/make_official.py story officiel/<image> visuels/AAAA-MM-JJ-story.jpg "BADGE" "Question" "Texte" (commitée puis envoyée via son URL raw GitHub) ; sinon un visuel vertical créé avec mcp__Canva__create-design au format « Instagram Story » dans le style néon NéoSoluce (aucun élément Rockstar, pas de flèches ni symboles spéciaux). Question qui fait réagir les joueurs (ex. « Lucia ou Jason : avec qui commencerez-vous ? », « Quelle radio de Vice City voulez-vous retrouver ? », « Vous jouerez le 19 à minuit ? ») ou « le saviez-vous ? » vérifié, et « Répondez-nous en message privé ». Programme-la comme story (sans text). Les stickers interactifs (sondage, quiz) ne sont pas disponibles via Metricool : n'en promets pas.
    c) Quand un nouvel article est publié, une story avec son visuel Instagram (le même export Canva) le soir.
    d) Le Reel info (officiel ou gameplay) en story à 17h00.
-   Maximum 5 stories par jour et par réseau. Si Canva échoue, publie seulement les stories des Reels.
+   Maximum 8 stories par jour et par réseau. Si Canva échoue, publie seulement les stories des Reels.
 11. Si une étape échoue (dépôt, génération, push, Metricool), ne publie pas le Reel concerné ce jour-là, n'insiste pas et explique le problème dans le récap.

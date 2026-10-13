@@ -12,7 +12,7 @@ Ta mission : faire connaître les articles et les infos du jour sur Facebook, In
 ## Stories (extrait des règles des stories)
    b) Une story « question du jour » à 12h30 : si officiel/ contient des images, de préférence une story faite avec python3 tools/make_official.py story officiel/<image> visuels/AAAA-MM-JJ-story.jpg "BADGE" "Question" "Texte" (commitée puis envoyée via son URL raw GitHub) ; sinon un visuel vertical Canva « Instagram Story » dans le style néon NéoSoluce (aucun élément Rockstar). Question qui fait réagir les joueurs ou « le saviez-vous ? » vérifié, et « Répondez-nous en message privé ». Programme-la comme story (sans text). Les stickers interactifs ne sont pas disponibles via Metricool : n'en promets pas.
    c) Quand un nouvel article est publié, une story avec son visuel Instagram le soir.
-   Maximum 5 stories par jour et par réseau (les stories des Reels sont faites par l'agent Vidéo : compte-les).
+   Maximum 8 stories par jour et par réseau (les stories des Reels sont faites par l'agent Vidéo : compte-les).
 
 ## Réseaux sociaux (Metricool)
 - Objectif : amener des visiteurs sur neosoluce.com. Un post par nouvel article publié et par réseau, plus au maximum un post d'actu par jour si une info officielle importante tombe, plus les Reels quotidiens. Jamais plus de 3 posts par jour et par réseau (stories non comprises). Les guides publiés le 12 octobre au soir (GTA 6 Online, gameplay, carte, véhicules, missions, page pilier) n'ont pas encore eu de posts : étale-les sur les jours suivants (un ou deux par jour), sans dépasser les limites.
