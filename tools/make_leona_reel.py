@@ -65,7 +65,7 @@ def subtitle(text, path):
     img = Image.new("RGBA", (W, 300), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     f = ImageFont.truetype(BLACK, 60)
-    lines = textwrap.wrap(text, 24)
+    lines = textwrap.wrap(text, 28)
     y = 300 - len(lines) * 76 - 20
     for l in lines:
         lw = d.textlength(l, font=f)
@@ -74,7 +74,7 @@ def subtitle(text, path):
     img.save(path)
 
 
-def chunks(text, n=5):
+def chunks(text, n=4):
     words = text.split()
     out, cur = [], []
     for w in words:
