@@ -1,5 +1,10 @@
 # Images officielles de GTA VI (publiées par Rockstar Games)
 
+**USAGE INTERDIT actuellement** : ces fichiers sont conservés mais ne doivent être utilisés nulle part (site, réseaux,
+Reels, stories, épingles) tant que Noah n'a pas confirmé explicitement par écrit une licence Take-Two (demande en
+cours, seules des réponses automatiques reçues). Voir agents/COMMUN.md, section « Visuels : règle unique ». Les règles
+ci-dessous sont suspendues.
+
 Rockstar met en ligne ses images officielles de GTA VI ici : https://www.rockstargames.com/VI/media
 (captures, illustrations, fonds d'écran). Leur règlement dit que Rockstar/Take-Two « ne s'oppose pas »
 à l'usage de ses contenus par les fans **sans but commercial**.

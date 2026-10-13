@@ -4,7 +4,7 @@ Ta mission : (1) une amélioration utile du site par passage, (2) les liens affi
 
 ## Chaque jour
 1. Guides d'achat : publier avant le 1er novembre « Où acheter GTA 6 au meilleur prix (France et Belgique) » et « Quel SSD pour GTA 6 sur PS5 », puis les mettre à jour chaque semaine (date « Mis à jour le … »), avec couverture NéoSoluce (voir agents/1-redaction.md, section Couvertures) et liens Amazon. Ensuite : manettes, casques, accessoires utiles pour GTA 6. Un guide d'achat maximum par jour ; liens internes vers la page pilier et l'article francophonie (id 78) quand c'est utile.
-2. Vérifie qu'aucun article avec lien Amazon ne manque la mention obligatoire.
+2. Vérifie qu'aucun article avec lien Amazon ne manque les deux mentions obligatoires (près du premier lien et en fin d'article) ni n'utilise un autre tag que neosoluce-21.
 3. Une amélioration d'interface (règles ci-dessous), avec sauvegarde dans Google Drive avant toute modification d'un template, template-part ou navigation. Le CSS global n'est jamais modifié par un agent.
 4. Page Partenariats (id 48) : à jour, sans chiffre inventé.
 5. Journal : ce qui a été fait, le nom du fichier de sauvegarde, les liens des guides.
@@ -20,9 +20,11 @@ Noah vise au moins 200 € de gain net en novembre (mois de la sortie). Toutes t
 
 ## Liens affiliés Amazon (Partenaires Amazon.fr, identifiant : neosoluce-21)
 - Ajoute des liens affiliés uniquement là où ils aident vraiment le lecteur : articles sur les prix et éditions de GTA 6, les manettes, casques, SSD, consoles et accessoires. Jamais dans un article purement d'actu ou de soluce, sauf un lien discret vers le jeu. Jamais de lien affilié dans les posts des réseaux sociaux : seulement le lien de l'article NéoSoluce.
-- Format : lien de recherche Amazon.fr avec l'identifiant, par exemple https://www.amazon.fr/s?k=GTA+6+PS5&tag=neosoluce-21 . N'utilise un lien produit direct (https://www.amazon.fr/dp/ASIN?tag=neosoluce-21) que si tu as pu vérifier l'ASIN exact ; sinon, toujours le lien de recherche. N'invente jamais un ASIN.
-- N'affiche jamais un prix Amazon précis comme garanti (les prix changent) : écris « voir le prix sur Amazon ». Ne recommande que des produits sur lesquels tu as des infos fiables (tests, fiches officielles), en tes propres mots.
-- Liens avec rel="sponsored nofollow" et ouverture dans un nouvel onglet.
+- Format : lien de recherche Amazon.fr avec l'identifiant, par exemple https://www.amazon.fr/s?k=GTA+6+PS5&tag=neosoluce-21 . N'utilise un lien produit direct (https://www.amazon.fr/dp/ASIN?tag=neosoluce-21) que si tu as pu vérifier que l'ASIN correspond bien au produit décrit ; sinon, toujours le lien de recherche. N'invente jamais un ASIN. Jamais d'autre tag que neosoluce-21, jamais de lien raccourci ou de lien d'un tiers.
+- Priorité aux produits à forte intention d'achat (précommande GTA VI, cartes PSN/Xbox, accessoires PS5/Xbox) dans les articles les plus lus : le compte Amazon Partenaires doit générer 3 ventes en 180 jours pour être validé.
+- N'affiche jamais un prix Amazon précis comme garanti (les prix changent) : écris « voir le prix sur Amazon » (ou « prix constaté le JJ/MM/AAAA »). Ne recommande que des produits sur lesquels tu as des infos fiables (tests, fiches officielles), en tes propres mots.
+- Liens avec rel="sponsored nofollow noopener" et ouverture dans un nouvel onglet.
+- Mention obligatoire juste avant ou après le PREMIER lien Amazon de l'article : « *Cet article contient des liens affiliés Amazon : si tu achètes via ces liens, NéoSoluce touche une petite commission, sans surcoût pour toi.* » (adapter au vouvoiement du site : « si vous achetez… sans surcoût pour vous »), en plus de la mention de fin ci-dessous.
 - Mention obligatoire en fin de tout article contenant un lien Amazon, juste avant la mention « site de fans » : « En tant que Partenaire Amazon, NéoSoluce réalise un bénéfice sur les achats remplissant les conditions requises. »
 - Lors du premier passage qui suit ces instructions, si ce n'est pas déjà fait, ajoute une fois des liens affiliés pertinents dans les articles existants « GTA 6 : date et heure de sortie en Belgique et en France » (section « Où l'acheter moins cher ? ») et « GTA 6 : Standard ou Ultimate » (section sur l'astuce boîte + mise à niveau), avec la mention.
 
