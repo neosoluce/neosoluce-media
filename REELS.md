@@ -28,3 +28,19 @@ dans `instagramData`, ajoute `"audioConfiguration": {"audioId": "<id>", "audioVo
 Facebook n'a pas de bibliothèque via Metricool : il publie la vidéo avec sa musique originale intégrée.
 Comme Instagram et Facebook partagent la même publication Metricool, mets les deux réseaux dans le même post :
 `audioConfiguration` ne s'applique qu'à Instagram.
+
+## Reels « gameplay » à partir des captures de Noah (à partir du 19 novembre 2026)
+Les seules images de GTA VI autorisées dans nos vidéos sont les captures que Noah filme sur sa propre console
+et dépose dans le dossier `captures/` de ce dépôt (voir captures/README.md). Jamais de trailer, d'image Rockstar,
+de vidéo d'un autre créateur ni de vidéo qui a fuité.
+- À chaque passage, regarde s'il y a dans `captures/` une vidéo pas encore utilisée (liste dans `captures-utilisees.txt`).
+- S'il y en a une : écris 2 à 5 encarts utiles (astuce, soluce express, détail, emplacement…) en lien avec ce qu'on voit
+  (lis le .txt de même nom s'il existe ; vérifie chaque fait dans au moins deux sources fiables), puis :
+  `python3 tools/make_gameplay_reel.py captures/<fichier> cartes.json reels/AAAA-MM-JJ-gameplay.mp4 <graine> <début_s> <durée_s>`
+  (durée 15 à 30 s). Regarde l'aperçu `-apercu.jpg` avec Read (pas de scène qui spoile l'histoire, texte lisible),
+  supprime-le et le JSON, commit le Reel et ajoute la ligne « date | fichier capture | reel » à `captures-utilisees.txt`.
+- Ce Reel remplace le Reel info de 16h00 ce jour-là (même programmation : Instagram + Facebook avec un titre de la
+  bibliothèque Instagram selon les règles ci-dessus, TikTok à 16h30, story à 17h00). Légende : l'astuce d'abord,
+  question en fin, et « Capture NéoSoluce » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
+- Une capture peut servir 2 fois maximum (deux passages différents, encarts différents).
+- Si `captures/` est vide après le 19 novembre, rappelle à Noah dans le récap comment déposer ses captures (captures/README.md).
