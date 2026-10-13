@@ -51,6 +51,10 @@ Les captures que Noah filme sur sa propre console sont déposées dans le dossie
 - Si `captures/` est vide après le 19 novembre, rappelle à Noah dans le récap comment déposer ses captures (captures/README.md).
 
 ## Publications avec les images OFFICIELLES de Rockstar (dossier `officiel/`, dès maintenant)
+**Reels officiels et Reel info** : pour tout Reel fait à partir d'images ou de vidéos officielles, utilise de préférence
+`python3 tools/make_dynamic_reel.py cartes.json reels/AAAA-MM-JJ-<sujet>.mp4 <graine>` (format des cartes dans la
+docstring du script), qui remplace le mode `reel` de make_official.py. Vérifie la planche `-apercu.jpg` avec Read puis supprime-la.
+
 Noah dépose dans `officiel/` les images téléchargées sur https://www.rockstargames.com/VI/media (voir officiel/README.md).
 Rockstar/Take-Two tolère l'usage de ses contenus par les fans SANS BUT COMMERCIAL : on les utilise donc uniquement
 sur Instagram, Facebook et TikTok, en publication de fan, avec ces règles strictes :
