@@ -46,24 +46,40 @@ Les captures que Noah filme sur sa propre console sont déposées dans le dossie
   supprime-le et le JSON, commit le Reel et ajoute la ligne « date | fichier capture | reel » à `captures-utilisees.txt`.
 - Ce Reel remplace le Reel info de 16h00 ce jour-là (même programmation : Instagram + Facebook avec un titre de la
   bibliothèque Instagram selon les règles ci-dessus, TikTok à 16h30, story à 17h00). Légende : l'astuce d'abord,
-  question en fin, et « Capture NéoSoluce · © Rockstar Games » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
+  question en fin, et « Capture NéoSoluce » ; ne jamais monétiser la vidéo elle-même (pas de partenariat sur ces Reels).
 - Une capture peut servir 2 fois maximum (deux passages différents, encarts différents).
 - Si `captures/` est vide après le 19 novembre, rappelle à Noah dans le récap comment déposer ses captures (captures/README.md).
 
-## Images et vidéos OFFICIELLES de Rockstar : INTERDITES (règle en vigueur, voir agents/COMMUN.md « Visuels : règle unique »)
-Aucun visuel officiel Rockstar/Take-Two (captures officielles ou d'autrui, artworks, jaquette, portraits et clips de personnages, trailers,
-extraits de trailer, logos, fichiers du dossier `officiel/` et `officiel/videos/`) dans un Reel, un post, une story ou
-une épingle, tant que Noah n'a pas confirmé explicitement par écrit une licence Take-Two (demande en cours, seules des
-réponses automatiques reçues). Le crédit « © Rockstar Games » ne rend pas autorisé un visuel officiel ou d'autrui. Seule exception : les captures de jeu faites par Noah lui-même, après la sortie, avec la mention « © Rockstar Games » (voir ci-dessus et COMMUN.md). `tools/make_official.py`
-n'est plus utilisé ; `officiel/` et `officiel-utilisees.txt` sont conservés sans modification.
-Autorisés : visuels générés par IA (néon Vice City, sans logo, sans texte, sans personnage existant), créations maison
-(Reels `make_reel.py` / `make_info_reel.py`, Canva maison, Léona et les vidéos OpenArt de Noah), images libres de droits
-à licence vérifiée. Un simple lien vers une vidéo YouTube officielle de Rockstar reste permis (partage ou intégration,
-jamais de téléversement). Le Reel du jour de 16h00 est donc : Léona, sinon capture de Noah (après la sortie), sinon Reel
-info néon.
-Avant toute programmation, vérifie dans getScheduledPosts qu'aucune publication non publiée ne contient un visuel
-officiel ; si c'est le cas, passe-la en brouillon (updateScheduledPost, draft true ; jamais de suppression) et signale-la
-dans le journal « Pour Noah ».
+## Publications avec les images OFFICIELLES de Rockstar (dossier `officiel/`, dès maintenant)
+Noah dépose dans `officiel/` les images téléchargées sur https://www.rockstargames.com/VI/media (voir officiel/README.md).
+Rockstar/Take-Two tolère l'usage de ses contenus par les fans SANS BUT COMMERCIAL : on les utilise donc uniquement
+sur Instagram, Facebook et TikTok, en publication de fan, avec ces règles strictes :
+- jamais sur une publication sponsorisée, en partenariat, boostée, ni avec un lien Amazon ou un code promo ;
+  la légende apporte une info et pose une question ; elle peut citer « Plus d'infos : neosoluce.com » une fois, sans « achetez » ;
+- crédit « Image officielle © Rockstar Games » toujours visible (le script l'ajoute) et rappelé en fin de légende ;
+- image non déformée, pas de spoiler, jamais une image qui ne vient pas du site officiel de Rockstar ;
+- jamais sur le site neosoluce.com tant que Take-Two n'a pas accordé de licence écrite (demande envoyée à copyright@take2games.com) ;
+- en cas de demande de retrait de Rockstar/Take-Two : retirer immédiatement et le signaler en tête du récap.
+Vidéos officielles : `officiel/videos/` contient les clips officiels publiés par Rockstar sur la même page
+(portraits animés des personnages de 1 à 1,5 s, jaquette animée). Mêmes règles que les images, crédit
+« Vidéo officielle © Rockstar Games » (ajouté par le script), son d'origine toujours coupé. Dans cartes.json, une entrée
+`{"video": "officiel/videos/<fichier>.mp4", "x": 0.5, ...}` remplace `"image"` ; `x` (0 = gauche, 1 = droite) règle le
+recadrage : vérifie dans l'aperçu que le visage est dans le cadre. Jaquette : `"cadre": "entier", "largeur": 0.45,
+"debut": 16.5` (jamais la fin de la vidéo avec « Pre-order now »). Les personnages déjà présentés par Rockstar
+(Jason Duval, Lucia Caminos, Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista, Brian Heder) :
+décris-les uniquement avec ce que dit leur fiche officielle. Jamais de trailer, ni d'extrait de trailer.
+Formats (python3 tools/make_official.py) :
+- `post`  : post Instagram/Facebook 1080x1350 avec encart néon (badge, titre ≤ 40 car., texte ≤ 90 car.) ;
+- `story` : story 1080x1920 (même encart) ;
+- `reel`  : Reel de 3 à 6 images officielles avec zoom lent, encarts et musique originale :
+  `python3 tools/make_official.py reel cartes.json reels/AAAA-MM-JJ-officiel.mp4 <graine>` avec
+  cartes.json = [{"image": "officiel/<fichier>", "badge": "...", "titre": "...", "texte": "..."}, ...].
+Rythme : quand `officiel/` contient des images, le Reel info de 16h00 utilise de préférence `make_official.py reel`
+(un jour sur deux au moins), et la story « question du jour » de 12h30 peut utiliser `make_official.py story`
+au lieu de Canva. Varie les images (liste dans `officiel-utilisees.txt` : date | image | publication ; une image
+au maximum une fois par semaine). Chaque fait écrit sur l'image doit être vérifié dans une source fiable et
+correspondre à ce qu'on voit, sans inventer de détail sur l'image.
+Si `officiel/` est vide, rappelle une fois par semaine à Noah, dans le récap, comment le remplir (officiel/README.md).
 
 ## Léona, la mascotte (vidéos générées par Noah avec OpenArt)
 Lis mascotte/LEONA.md (fiche personnage, ton, règles). Léona n'est jamais appelée « Leonida ».
