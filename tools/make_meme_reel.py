@@ -8,7 +8,7 @@ Usage :
     - Boucle : le clip est répété N fois, en aller simple (pas d'aller-retour). Par défaut, assez de fois pour
       atteindre au moins 10 s, sans dépasser 20 s (un clip de plus de 20 s n'est pas bouclé).
     - Texte : bloc blanc à coins arrondis, texte noir gras centré (Inter Display Bold), 1 à 3 lignes,
-      largeur max ~860 px, vers y=300, affiché pendant toute la vidéo.
+      largeur max ~860 px, vers y=200, affiché pendant toute la vidéo.
     - Signature « NÉOSOLUCE » blanche semi-transparente en bas à droite (au-dessus des boutons TikTok).
     - Son : par défaut, son du clip coupé + musique originale (tools/music.py) avec la graine donnée (7 par défaut) ;
       --musique aucune : piste silencieuse (pour ajouter un son tendance dans l'appli) ;
@@ -32,7 +32,7 @@ from music import make_music, write_wav  # noqa: E402
 
 W, H, FPS = 1080, 1920, 30
 BOX_W, PAD_X, PAD_Y = 860, 44, 30
-TEXT_Y = 300
+TEXT_Y = 200
 SIGN_Y, SIGN_MARGIN, SIGN_SIZE = 1500, 70, 34
 
 
