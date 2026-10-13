@@ -1,5 +1,7 @@
 # Règles des Reels NéoSoluce (à lire par l'agent avant chaque Reel)
 
+**Lis aussi FRANCOPHONIE.md (même dépôt) et applique-le à tout le passage : site, articles et réseaux.**
+
 **Avant de programmer quoi que ce soit** : appelle getScheduledPosts pour le jour visé. Des publications ont pu être
 programmées à l'avance (par Noah ou une session précédente) : compte-les dans la limite de 3 publications par réseau
 et par jour (stories à part). S'il y a déjà un Reel programmé ce jour-là, n'en crée pas un deuxième.
