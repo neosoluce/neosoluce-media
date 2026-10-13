@@ -2,3 +2,4 @@
 # date | reel | audioId | titre | artiste
 2026-10-13 | details-caches-1 | 912447631852630 | Sunset Sync | Afterlight
 2026-10-13 | 2026-10-13-officiel | 1718120844886611 | Bass Attack | Scott Dugdale
+2026-10-14 | 2026-10-14-personnages | 1143868916400625 | Spector | Sam Marshall
