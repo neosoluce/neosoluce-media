@@ -101,3 +101,10 @@ Lis mascotte/LEONA.md (fiche personnage, ton, règles). Léona n'est jamais appe
   la voix est le son), instagramData isAiGenerated true, TikTok à 16h30 avec tiktokData isAigc true, story à 17h00. Compte-le
   dans la limite de 3 publications par réseau et par jour. Légende : l'info d'abord, une question, « Léona t'en dit
   plus sur neosoluce.com (lien en bio) », hashtags, puis « Vidéo générée par IA ». Jamais boostée ni sponsorisée.
+
+## Memes animés « POV » (format viral TikTok, à privilégier dès qu'un clip est disponible)
+Noah dépose des clips courts générés par IA dans mascotte/memes/ (voir mascotte/memes/README.md ; idées et prompts dans mascotte/IDEES-MEMES.md).
+- Si un clip de mascotte/memes/ n'est pas encore listé dans mascotte/memes-utilises.txt : texte = contenu du .txt de même nom, sinon le texte de la ligne de même nom dans mascotte/IDEES-MEMES.md.
+- Montage : python3 tools/make_meme_reel.py mascotte/memes/<nom>.mp4 "<texte>" reels/AAAA-MM-JJ-meme-<nom>.mp4 <graine> ; regarde l'aperçu avec Read, supprime-le, commit, ajoute « date | nom | reel » à mascotte/memes-utilises.txt (crée-le s'il n'existe pas).
+- Programmation : TikTok en priorité (c'est là que ce format marche le mieux), à 20h00, tiktokData isAigc true ; puis Instagram Reel + Facebook Reel le lendemain à 12h30 (Instagram : audioConfiguration avec un titre de la bibliothèque selon les règles ci-dessus, isAiGenerated true). Légende très courte et drôle, 3 à 5 hashtags (#GTA6 #GTAVI #gaming #humour), puis « Vidéo générée par IA ». Compte dans les limites de COMMUN.md.
+- Une fois par semaine (le lundi), propose dans le journal « Pour Noah » 2 nouvelles idées de memes (texte + scène, même format que IDEES-MEMES.md, ajoutées au fichier), à générer gratuitement avec Google Flow ou Kling.
