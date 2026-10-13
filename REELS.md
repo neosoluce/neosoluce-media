@@ -1,5 +1,9 @@
 # Règles des Reels NéoSoluce (à lire par l'agent avant chaque Reel)
 
+**Avant de programmer quoi que ce soit** : appelle getScheduledPosts pour le jour visé. Des publications ont pu être
+programmées à l'avance (par Noah ou une session précédente) : compte-les dans la limite de 3 publications par réseau
+et par jour (stories à part). S'il y a déjà un Reel programmé ce jour-là, n'en crée pas un deuxième.
+
 ## Musique : différente à chaque Reel, toujours dans le thème (néon, Miami, nuit, années 80)
 
 ### 1. Musique intégrée à la vidéo (Facebook + secours)
@@ -54,6 +58,14 @@ sur Instagram, Facebook et TikTok, en publication de fan, avec ces règles stric
 - image non déformée, pas de spoiler, jamais une image qui ne vient pas du site officiel de Rockstar ;
 - jamais sur le site neosoluce.com tant que Take-Two n'a pas accordé de licence écrite (demande envoyée à copyright@take2games.com) ;
 - en cas de demande de retrait de Rockstar/Take-Two : retirer immédiatement et le signaler en tête du récap.
+Vidéos officielles : `officiel/videos/` contient les clips officiels publiés par Rockstar sur la même page
+(portraits animés des personnages de 1 à 1,5 s, jaquette animée). Mêmes règles que les images, crédit
+« Vidéo officielle © Rockstar Games » (ajouté par le script), son d'origine toujours coupé. Dans cartes.json, une entrée
+`{"video": "officiel/videos/<fichier>.mp4", "x": 0.5, ...}` remplace `"image"` ; `x` (0 = gauche, 1 = droite) règle le
+recadrage : vérifie dans l'aperçu que le visage est dans le cadre. Jaquette : `"cadre": "entier", "largeur": 0.45,
+"debut": 16.5` (jamais la fin de la vidéo avec « Pre-order now »). Les personnages déjà présentés par Rockstar
+(Jason Duval, Lucia Caminos, Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista, Brian Heder) :
+décris-les uniquement avec ce que dit leur fiche officielle. Jamais de trailer, ni d'extrait de trailer.
 Formats (python3 tools/make_official.py) :
 - `post`  : post Instagram/Facebook 1080x1350 avec encart néon (badge, titre ≤ 40 car., texte ≤ 90 car.) ;
 - `story` : story 1080x1920 (même encart) ;

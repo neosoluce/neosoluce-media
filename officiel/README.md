@@ -15,6 +15,12 @@ Rockstar met en ligne ses images officielles de GTA VI ici : https://www.rocksta
 Uniquement des images téléchargées sur le site officiel de Rockstar. Jamais d'image qui a fuité, ni d'image
 prise sur un autre site, une autre page ou chez un autre créateur.
 
+## Vidéos officielles
+Les clips officiels (portraits animés des personnages, jaquette animée) vont dans `officiel/videos/`.
+GitHub refuse sur le site web les fichiers de plus de 25 Mo : dans ce cas, envoie simplement le fichier
+(ou un .zip) dans la conversation avec Claude, qui l'ajoute au dépôt.
+Pas de trailer ni d'extrait de trailer : on les partage seulement avec le lien YouTube officiel.
+
 ## Règles d'utilisation (appliquées automatiquement par l'agent)
 - Seulement sur les réseaux sociaux (Instagram, Facebook, TikTok), en publication de fan : jamais sponsorisée,
   jamais boostée avec de la pub payante, jamais avec un partenaire, jamais pour vendre un produit

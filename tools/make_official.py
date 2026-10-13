@@ -10,6 +10,8 @@ Usage :
     python3 tools/make_official.py story officiel/<image> out.jpg "BADGE" "Titre" "Texte"
     python3 tools/make_official.py reel  cartes.json out.mp4 [graine]
         cartes.json = [{"image": "officiel/<fichier>", "badge": "...", "titre": "...", "texte": "..."}, ...] (3 à 6)
+        ou, pour une VIDÉO officielle : {"video": "officiel/videos/<fichier>.mp4", "x": 0.5, "cadre": "remplir"|"entier",
+        "debut": 0, "badge": ..., "titre": ..., "texte": ...} (son d'origine coupé, crédit « Vidéo officielle © Rockstar Games »)
 """
 import json, os, subprocess, sys, tempfile, textwrap
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
@@ -50,15 +52,22 @@ def panel(w, badge, titre, texte):
     return img
 
 
-def frame(src, w, h, badge, titre, texte):
-    base = fit_cover(Image.open(src), w, h).convert("RGBA")
-    # dégradé sombre en bas pour la lisibilité
+def overlay(w, h, badge, titre, texte, credit=CREDIT):
+    """Calque transparent : dégradé sombre, pastille NÉOSOLUCE, encart néon, crédit."""
     grad = Image.new("L", (1, h))
     for y in range(h):
         grad.putpixel((0, y), int(230 * max(0, (y - h * 0.45) / (h * 0.55)) ** 1.3))
-    shade = Image.new("RGBA", (w, h), NIGHT + (0,))
-    shade.putalpha(grad.resize((w, h)))
-    base = Image.alpha_composite(base, shade)
+    base = Image.new("RGBA", (w, h), NIGHT + (0,))
+    base.putalpha(grad.resize((w, h)))
+    return decorate(base, w, h, badge, titre, texte, credit)
+
+
+def frame(src, w, h, badge, titre, texte):
+    base = fit_cover(Image.open(src), w, h).convert("RGBA")
+    return Image.alpha_composite(base, overlay(w, h, badge, titre, texte)).convert("RGB")
+
+
+def decorate(base, w, h, badge, titre, texte, credit):
     d = ImageDraw.Draw(base)
     tall = h > 1500  # story / reel : marges plus grandes (zoom et interface des applis)
     top = 110 if tall else 50
@@ -69,8 +78,41 @@ def frame(src, w, h, badge, titre, texte):
     base.alpha_composite(p, (0, h - p.height - (190 if tall else 80)))
     fc = ImageFont.truetype(BOLD, 28)
     d = ImageDraw.Draw(base)
-    d.text(((w - d.textlength(CREDIT, font=fc)) / 2, h - (150 if tall else 58)), CREDIT, font=fc, fill=(255, 255, 255, 220))
-    return base.convert("RGB")
+    d.text(((w - d.textlength(credit, font=fc)) / 2, h - (150 if tall else 58)), credit, font=fc, fill=(255, 255, 255, 220))
+    return base
+
+
+def video_clip(c, seg, tmp, i):
+    """Segment de Reel à partir d'une VIDÉO officielle de Rockstar (officiel/videos/).
+    Son d'origine coupé. Les clips très courts (portraits animés de 1 à 1,5 s) sont joués en aller-retour
+    en boucle ; les vidéos plus longues sont lues à partir de "debut" (secondes).
+    "cadre": "remplir" (défaut, recadrage plein écran) ou "entier" (vidéo entière sur fond flou, ex. jaquette).
+    "largeur": avec "entier", part centrale de la largeur gardée (1 = tout, 0.45 = la jaquette seule).
+    "x": position horizontale du recadrage, de 0 (gauche) à 1 (droite), 0.5 par défaut : vérifie sur l'aperçu
+    que le visage est bien dans le cadre."""
+    ov = os.path.join(tmp, f"o{i}.png")
+    overlay(1080, 1920, c["badge"], c["titre"], c["texte"], "Vidéo officielle © Rockstar Games").save(ov)
+    frames = int(seg * 30)
+    src = c["video"]
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src],
+                               capture_output=True, text=True, check=True).stdout.strip())
+    if c.get("cadre") == "entier":
+        z = float(c.get("largeur", 1))  # garde seulement la partie centrale (ex. 0.45 pour la jaquette)
+        fit = (f"crop=iw*{z}:ih,split[s1][s2];[s1]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,"
+               "eq=brightness=-0.25[bg];[s2]scale=900:-2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2-150")
+    else:
+        fit = f"scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920:x=(iw-1080)*{float(c.get('x', 0.5))}"
+    if dur < seg:  # aller-retour en boucle
+        chain = f"[0:v]fps=30,{fit},split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0,loop=loop=-1:size=32767[v]"
+        inp = ["-i", src]
+    else:
+        chain = f"[0:v]fps=30,{fit}[v]"
+        inp = ["-ss", str(c.get("debut", 0)), "-i", src]
+    out = os.path.join(tmp, f"c{i}.mp4")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inp, "-i", ov, "-filter_complex",
+                    chain + ";[v][1:v]overlay=0:0,format=yuv420p[o]", "-map", "[o]", "-an",
+                    "-frames:v", str(frames), "-c:v", "libx264", "-crf", "20", out], check=True)
+    return out
 
 
 def reel(cards_path, out, seed):
@@ -82,6 +124,9 @@ def reel(cards_path, out, seed):
     dur = round(seg * len(cards), 2)
     clips = []
     for i, c in enumerate(cards):
+        if "video" in c:
+            clips.append(video_clip(c, seg, tmp, i))
+            continue
         fr = frame(c["image"], 1080, 1920, c["badge"], c["titre"], c["texte"])
         p = os.path.join(tmp, f"f{i}.jpg"); fr.save(p, quality=92)
         # léger zoom lent (effet Ken Burns) sur chaque image
