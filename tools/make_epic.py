@@ -245,4 +245,6 @@ if __name__ == "__main__":
     while i < len(a):
         if a[i] == "--out": out = a[i + 1]; i += 2
         else: bg = a[i]; i += 1
+    if bg is None:  # illustration de secours dessinée en code : pas d'IA
+        MENTION = "Illustration NéoSoluce – pas une image du jeu"
     make(scene, bg, out)
