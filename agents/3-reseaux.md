@@ -37,4 +37,4 @@ Les Reels marchant moins, Noah veut des visuels cinématiques qui cartonnent : 2
 - Mention obligatoire en bas : « Illustration NéoSoluce (IA) – pas une image du jeu » ; légende avec « Illustration IA NéoSoluce, pas une image du jeu ».
 - Légende : accroche forte + question finale qui fait commenter (« Tu prends quelle route ? »), hashtags #GTA6 #GTAVI #ViceCity #GTA5 #Rockstar.
 - Tant que Metricool est à l'arrêt, ces visuels comptent dans le kit du jour et peuvent remplacer le post n°2.
-- Si le quota Canva d'images est épuisé, `make_epic.py` dessine un fond de secours avec Pillow (voir l'en-tête du script).
+- Noah juge le fond de secours dessiné en code « affreux » (16/10) : ne publie et ne propose JAMAIS un visuel épique sans vrai fond IA. Si le quota Canva est épuisé et qu'aucun fond IA n'a été envoyé par Noah (dossier fonds-ia/), saute ce format ce jour-là et note-le dans le journal.
