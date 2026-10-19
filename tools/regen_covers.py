@@ -21,6 +21,8 @@ COVERS = {
     "gta-6-taille-go-place-disque": ("TAILLE", "Combien|de Go ?", "Taille estimée, préchargement et astuces pour libérer de la place sur ta console.", "disque", "cyan"),
     "gta-6-codes-de-triche": ("CODES", "Codes de|triche ?", "Rockstar n'a rien annoncé : ce qu'on sait et les faux codes à éviter.", "manette", "rose"),
     "gta-6-activites-faune": ("ACTIVITÉS", "Activités|et faune", "Jet-ski, golf, plongée, 170 espèces animales : tout ce que Rockstar a détaillé.", "palmiers", "soleil"),
+    "gta-6-radios": ("RADIOS", "Les radios|de GTA 6", "Les 6 stations officielles, leurs animateurs et les premiers titres confirmés.", "radio", "cyan"),
+    "gta-6-personnages": ("PERSONNAGES", "Les personnages|de GTA 6", "Lucia, Jason et les rôles officiels : tout ce que Rockstar a présenté.", "cartes", "soleil"),
     "gta-6-tout-savoir": ("GUIDE", "Toutes les|infos GTA VI", "La page de référence : sortie, prix, carte, personnages, gameplay et FAQ.", "boussole", "rose"),
 }
 if __name__ == "__main__":

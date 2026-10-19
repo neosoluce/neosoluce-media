@@ -362,6 +362,34 @@ def scene(img, kind, accent):
             d.polygon([(cx, cy - 170), (cx + 34, cy), (cx - 34, cy)], fill=SUN + (235,))
             d.ellipse([cx - 12, cy - 12, cx + 12, cy + 12], fill=B + (255,))
         draw(f)
+    elif kind == "radio":
+        def f(d, c, w):
+            _rr(d, [820, 330, 1500, 620], 34, outline=c + (255,), width=w + 1)
+            d.ellipse([870, 380, 1060, 570], outline=B + (255,), width=w)
+            d.ellipse([920, 430, 1010, 520], outline=B + (160,), width=3)
+            d.ellipse([958, 468, 972, 482], fill=SUN + (255,))
+            for i in range(9):
+                h = 40 + (i * 37) % 120
+                x = 1110 + i * 42
+                _rr(d, [x, 560 - h, x + 24, 560], 5, fill=(c if i % 2 else B) + (235,))
+            d.line([(1120, 380), (1480, 380)], fill=c + (200,), width=3)
+            d.arc([760, 270, 900, 410], start=200, end=290, fill=SUN + (255,), width=4)
+            d.arc([720, 230, 940, 450], start=205, end=285, fill=SUN + (180,), width=3)
+        draw(f)
+    elif kind == "cartes":
+        def f(d, c, w):
+            for i, col in enumerate((B, c)):
+                x = 900 + i * 330
+                _rr(d, [x, 300, x + 290, 600], 24, outline=col + (255,), width=w + 1)
+                d.ellipse([x + 85, 340, x + 205, 460], outline=col + (255,), width=w)
+                d.ellipse([x + 120, 365, x + 170, 415], outline=col + (200,), width=3)
+                d.arc([x + 105, 415, x + 185, 475], start=200, end=340, fill=col + (200,), width=3)
+                for k in range(3):
+                    d.line([(x + 40, 510 + k * 28), (x + 250 - k * 50, 510 + k * 28)], fill=col + (200,), width=4)
+            pts = [(1500 + (44 if k % 2 == 0 else 18) * math.cos(math.radians(-90 + k * 36)),
+                    270 + (44 if k % 2 == 0 else 18) * math.sin(math.radians(-90 + k * 36))) for k in range(10)]
+            d.polygon(pts, fill=SUN + (245,))
+        draw(f)
     elif kind == "etoiles":
         def f(d, c, w):
             for i in range(6):
@@ -423,7 +451,7 @@ def text(img, badge, title_lines, subtitle, accent):
     return Image.alpha_composite(Image.alpha_composite(img, sh), layer)
 
 
-SCENES = {"voiture", "arme", "peninsule", "manette", "disque", "ecran", "globe", "play", "calendrier", "editions", "coffre", "palmiers", "boussole", "etoiles"}
+SCENES = {"voiture", "arme", "peninsule", "manette", "disque", "ecran", "globe", "play", "calendrier", "editions", "coffre", "palmiers", "boussole", "etoiles", "radio", "cartes"}
 
 
 def make(out, badge, title, subtitle, kind, accent_name="rose"):
