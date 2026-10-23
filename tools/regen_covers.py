@@ -25,6 +25,7 @@ COVERS = {
     "gta-6-personnages": ("PERSONNAGES", "Les personnages|de GTA 6", "Lucia, Jason et les rôles officiels : tout ce que Rockstar a présenté.", "cartes", "soleil"),
     "gta-6-telephone-applis": ("TÉLÉPHONE", "Téléphone|et applis", "Snapmatic, Waink, RydeMe et messages : tout ce que le téléphone de GTA 6 permet de faire.", "ecran", "cyan"),
     "gta-6-vice-city": ("VICE CITY", "Vice City|dans GTA 6", "Quartiers, lieux réels de Miami et opérations de lancement : ce que Rockstar confirme", "palmiers", "cyan"),
+    "gta-6-checklist-sortie": ("CHECKLIST", "AVANT LE|19 NOVEMBRE", "Préchargement, place disque, boîte sans disque : tout ce qu'il faut régler avant la sortie.", "astuce", "cyan"),
     "gta-6-police-6-etoiles": ("POLICE", "Police et|6 étoiles", "Étoiles, icônes de recherche, témoins et caméras : comment fuir la police de Leonida.", "etoiles", "rose"),
     "gta-6-tout-savoir": ("GUIDE", "Toutes les|infos GTA VI", "La page de référence : sortie, prix, carte, personnages, gameplay et FAQ.", "boussole", "rose"),
 }
