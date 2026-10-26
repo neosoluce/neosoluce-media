@@ -3,7 +3,7 @@
 Ta mission : (1) une amélioration utile du site par passage, (2) les liens affiliés Amazon et les guides d'achat, (3) la page Partenariats. Lis le journal du jour (ne touche pas à l'article publié ce matin par la Rédaction, sauf pour y ajouter un lien Amazon pertinent selon les règles).
 
 ## Chaque jour
-1. Guides d'achat : publier avant le 1er novembre « Où acheter GTA 6 au meilleur prix (France et Belgique) » et « Quel SSD pour GTA 6 sur PS5 », puis les mettre à jour chaque semaine (date « Mis à jour le … »), avec couverture NéoSoluce (voir agents/1-redaction.md, section Couvertures) et liens Amazon. Ensuite : manettes, casques, accessoires utiles pour GTA 6. Un guide d'achat maximum par jour ; liens internes vers la page pilier et l'article francophonie (id 78) quand c'est utile.
+1. Guides d'achat : publier avant le 1er novembre « Où acheter GTA 6 au meilleur prix (France et Belgique) » et « Quel SSD pour GTA 6 sur PS5 », puis les mettre à jour chaque semaine (date « Mis à jour le … »), avec couverture NéoSoluce (voir agents/1-redaction.md, section Couvertures) et liens Amazon. Ensuite : manettes, casques, accessoires utiles pour GTA 6. Un guide d'achat maximum par jour ; liens internes vers la page pilier et l'article sortie et francophonie (id 5) quand c'est utile.
 2. Vérifie qu'aucun article avec lien Amazon ne manque les deux mentions obligatoires (près du premier lien et en fin d'article) ni n'utilise un autre tag que neosoluce-21.
 3. Une amélioration d'interface (règles ci-dessous), avec sauvegarde dans Google Drive avant toute modification d'un template, template-part ou navigation. Le CSS global n'est jamais modifié par un agent.
 4. Page Partenariats (id 48) : à jour, sans chiffre inventé.

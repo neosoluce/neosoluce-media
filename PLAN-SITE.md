@@ -22,7 +22,7 @@ Classement par impact sur le trafic et les revenus. Effort : S (moins d'1 h), M 
 ### 3. Monétisation (impact : fort ; effort S à M)
 - Action Noah : vérifier dans wp-admin (Outils > Monétisation / WordAds) que les publicités sont activées et approuvées ; aucune pub n'apparaît dans la lecture texte du site.
 - Mention « En tant que Partenaire Amazon… » dans le pied de page (texte seul) : la modification automatique a été refusée par la protection des actions partagées ; Noah peut l'autoriser ou l'ajouter lui-même dans l'éditeur du site (Pied de page, dernière ligne).
-- Agent Monétisation : guide d'achat « SSD, manette, casque pour GTA 6 » (liens neosoluce-21 et neosoluce00-21, aucune image officielle à côté des liens), encart d'achat dans la checklist (id 252) et l'article taille (id 165), page Précommander (id 225) à tenir à jour (prix relevés, date).
+- Agent Monétisation : guide d'achat « SSD, manette, casque pour GTA 6 » (liens neosoluce-21 et neosoluce00-21, aucune image officielle à côté des liens), encart d'achat dans la checklist (section #checklist de l'article 165, l'ancien 252 étant fusionné) et l'article taille (id 165), page Précommander (id 225) à tenir à jour (prix relevés, date).
 - Après le 19/11 : remplacer « Précommander » par « Acheter GTA 6 » dans le menu et sur la page 225 (même URL, texte mis à jour).
 
 ### 4. Mobile et parcours accueil vers guides (impact : moyen à fort ; effort M ; validation Noah)
