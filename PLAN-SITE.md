@@ -11,7 +11,7 @@ Classement par impact sur le trafic et les revenus. Effort : S (moins d'1 h), M 
 
 ### 1. Relancer la production et préparer les pages piliers de lancement (impact : très fort ; effort L ; Claude seul)
 - Vérifier pourquoi l'agent Rédaction ne publie plus depuis le 23/10 (tâche planifiée, quotas). Action Noah : regarder l'état des tâches planifiées.
-- Rédiger la file des piliers prioritaires (voir agents/1-redaction.md, section « File des piliers ») : en brouillon tant que les faits manquent, publiés dès qu'il y a de la matière sourcée.
+- Suivre la file d'articles datée du 27/10 au 30/11 (agents/1-redaction.md, section « File d'articles datée », issue de ETUDE-AUDIENCE.md) : un article par jour, 3 brouillons jour J préparés avant le 19/11.
 - Les URL « jour J » doivent exister et être indexées avant le 19/11 (même avec un contenu d'attente honnête : « ce qu'on sait, mis à jour en continu ») pour capter le trafic des premiers jours.
 
 ### 2. Pages « jour J » mises à jour en continu du 19 au 30/11 (impact : très fort ; effort L ; Claude seul)
