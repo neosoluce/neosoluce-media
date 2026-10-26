@@ -56,6 +56,29 @@ Noah trouve que les photos de banque d'images (Wikimedia, etc.) font « vieux bl
 13. Prix de GTA 6 : où l'acheter le moins cher en France et en Belgique (à mettre à jour chaque semaine).
 (Déjà publiés le 12 octobre 2026, à tenir à jour et enrichir : GTA 6 Online id 28, gameplay id 32, carte id 33, véhicules id 34, missions id 35.)
 
+## File des piliers prioritaires d'ici le 19 novembre 2026 (audit du 26/10, voir PLAN-SITE.md)
+Cette file passe AVANT le plan éditorial ci-dessus (dont les points 1, 3 à 6 et 8 à 12 sont déjà publiés, le point 2 seulement en article général id 85). Un pilier par jour, dans cet ordre ; inventaire anti-doublon obligatoire (si l'article existe, enrichis-le au lieu d'en créer un). Statut : publié si la checklist est validée et que le sujet a assez de faits sourcés ; sinon brouillon, signalé « Pour Noah ».
+1. Prix de GTA 6 : où l'acheter le moins cher en France et en Belgique (slug gta-6-prix-ou-acheter) — avec l'agent Monétisation pour les liens ; mise à jour chaque semaine.
+2. Personnages : article dédié Lucia Caminos, puis Jason Duval (slugs gta-6-lucia-caminos, gta-6-jason-duval) — fiches officielles rockstargames.com/VI, faits recoupés uniquement.
+3. GTA 6 Online : enrichir l'article id 28 (rien de nouveau = ne pas changer la date).
+4. Configuration et performances : PS5, PS5 Pro, Xbox Series X|S, 30/60 FPS, mode performance (slug gta-6-ps5-pro-performances) — seulement ce qui est officiel ou rapporté par 2 sources ; sinon « pas encore annoncé ».
+5. GTA 6 : guide du débutant / que faire en premier (slug gta-6-debuter) — en brouillon jusqu'à la sortie, avec la structure prête ; aucun conseil de jeu inventé.
+6. Argent rapide dans GTA 6 (slug gta-6-argent-rapide) — brouillon : ce que Rockstar a montré (receleurs, revente de voitures, braquages) ; complété dès le 19/11 par recoupement.
+7. Codes de triche : tenir l'article id 171 prêt à basculer en « tous les codes » dès qu'un code est confirmé.
+8. 100 % et collectibles (slug gta-6-100-pourcent) — brouillon, publié dès que des sources fiables existent.
+9. Trophées et succès (slug gta-6-trophees-succes) — publier dès que la liste officielle apparaît sur PlayStation/Xbox (souvent quelques jours avant la sortie), sinon brouillon.
+10. Radios et musique : enrichir id 68 si la liste officielle des titres sort.
+11. Soluce complète des missions (dans l'article id 35, pas de doublon) — à partir du 19/11.
+12. GTA 6 : ce que disent les tests (slug gta-6-tests-notes) — le jour de la levée d'embargo.
+
+Consignes de qualité de cette file (en plus des règles ci-dessus) :
+- Faits sourcés uniquement : chaque fait vient d'une source officielle ou de 2 médias fiables indépendants ; pars des sources déjà citées dans le hub id 29 et des pages officielles rockstargames.com/VI. AVANT LA SORTIE, AUCUNE INFORMATION INVENTÉE SUR LE CONTENU DU JEU (missions, emplacements, codes, prix d'objets, astuces) : ce qui n'est pas annoncé s'écrit « pas encore annoncé ».
+- Structure des guides : L'essentiel (3 à 5 puces) + « Mis à jour le … » ; sommaire si plus de 700 mots ; H2 en vraies questions avec réponse directe de 40 à 60 mots ; tableaux pour les listes ; FAQ de 3 à 5 questions en blocs details ; conclusion avec lien vers le hub ; Sources (liens nofollow) ; disclaimer site de fans.
+- Longueur : pilier 1 500 à 2 500 mots ; guide 900 à 1 600 ; un brouillon d'attente peut être plus court mais doit répondre honnêtement à la question.
+- Liens internes : 3 à 6 dont le hub /gta-6-tout-savoir/ ; lien retour depuis 1 à 2 articles existants et ajout dans la page 29.
+- Image : image mise en avant = couverture NéoSoluce (tools/make_cover.py) ; illustration dans le corps = 1 à 3 images « gtavi- » de MEDIAS-GTAVI.md, légende « Image officielle © Rockstar Games » (décision de Noah du 26/10 : images officielles autorisées sur le site, y compris avec WordAds, JAMAIS à côté d'un lien Amazon, d'un code promo ou d'un bouton d'achat). Cette décision remplace la mention « aucun visuel officiel » de la checklist ci-dessus.
+- SEO : titre ≤ 60 caractères avec « GTA 6 » en tête, méta 130 à 155 caractères, slug sans date, catégorie 9957494, 2 à 4 étiquettes existantes (tags.list), excerpt d'une à deux phrases.
+
 ## Après la sortie : s'appuyer sur tous les tests et guides disponibles
 Personne ne joue pour le site (décision de Noah du 14/10). Dès la sortie, et chaque jour ensuite (si possible plusieurs passes de veille par passage), collecte les informations publiées par les tests et guides de la presse spécialisée et des sites de référence (tests de Jeuxvideo.com, Gamekult, IGN, GameSpot, Eurogamer, Polygon, Millenium ; guides IGN, GameRant, Fandom GTA Wiki, PowerPyx, etc.), ainsi que les annonces officielles de Rockstar et les notes de mise à jour (patchs).
 - Utilise-les pour créer et enrichir en continu : synthèse des tests (« GTA 6 : ce que disent les tests », avec les notes de chaque média et les points forts/faibles qui reviennent, en tes propres mots), liste et soluce des missions (dans l'article id 35), collectibles, astuces pour gagner de l'argent, meilleurs véhicules (dans l'article id 34), armes, activités annexes, commerces, fins possibles, trophées et succès, réglages graphiques, carte complète (dans l'article id 33), et un article par patch. Ajoute chaque fois un résumé et un lien dans la page pilier.
