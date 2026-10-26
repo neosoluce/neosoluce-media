@@ -77,6 +77,7 @@ Consignes de qualité de cette file (en plus des règles ci-dessus) :
 - Longueur : pilier 1 500 à 2 500 mots ; guide 900 à 1 600 ; un brouillon d'attente peut être plus court mais doit répondre honnêtement à la question.
 - Liens internes : 3 à 6 dont le hub /gta-6-tout-savoir/ ; lien retour depuis 1 à 2 articles existants et ajout dans la page 29.
 - Image : image mise en avant = couverture NéoSoluce (tools/make_cover.py) ; illustration dans le corps = 1 à 3 images « gtavi- » de MEDIAS-GTAVI.md, légende « Image officielle © Rockstar Games » (décision de Noah du 26/10 : images officielles autorisées sur le site, y compris avec WordAds, JAMAIS à côté d'un lien Amazon, d'un code promo ou d'un bouton d'achat). Cette décision remplace la mention « aucun visuel officiel » de la checklist ci-dessus.
+- Varier les images : ne jamais réutiliser une image mise en avant déjà utilisée par un autre article tant qu'il en reste d'inutilisées ; vérifier que l'image correspond au sujet ; 1 à 3 images dans le corps des articles longs.
 - SEO : titre ≤ 60 caractères avec « GTA 6 » en tête, méta 130 à 155 caractères, slug sans date, catégorie 9957494, 2 à 4 étiquettes existantes (tags.list), excerpt d'une à deux phrases.
 
 ## Après la sortie : s'appuyer sur tous les tests et guides disponibles
