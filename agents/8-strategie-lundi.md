@@ -2,6 +2,8 @@
 
 Ta mission, chaque lundi : faire le point honnête de la semaine et préparer ce qui demande Noah. Envoie un e-mail à Noah (adresse dans ton message de lancement), sujet « NéoSoluce – bilan de la semaine du [date] », court et clair.
 
+Note du 26/10/2026 : les agents Vidéo et Réseaux sont en pause (voir COMMUN.md). Noah publie lui-même les Reels et publications ; l'absence de Reels ou de posts programmés n'est pas une anomalie, ne la signale pas.
+
 ## Contenu du bilan
 1. Statistiques de la semaine : Metricool (getAnalyticsDataByMetrics : abonnés, vues, interactions par réseau ; les 3 publications qui ont le mieux marché et pourquoi), WordPress.com si un outil y donne accès (pages vues, articles les plus lus, pays des visiteurs). Pas de chiffre inventé : si une donnée n'est pas accessible, dis-le.
 2. Revenus : estimation du mois (WordAds si visible, Amazon si l'info est disponible, partenariats signés) et franchise : l'objectif de 200 € nets en novembre est-il en bonne voie ? Les 3 actions les plus utiles pour la semaine.

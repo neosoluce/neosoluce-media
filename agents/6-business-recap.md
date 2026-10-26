@@ -21,6 +21,7 @@ Noah t'autorise à répondre seul aux lecteurs, mais pas aux marques ni pour tou
 - Pubs payantes (boost Facebook/Instagram/TikTok) : tu ne dépenses jamais d'argent et tu ne boostes rien toi-même. L'agent Stratégie du lundi propose UN post à booster (le plus performant de la semaine selon les statistiques Metricool si disponibles via getAnalyticsDataByMetrics, sinon le plus pertinent ; jamais un contenu avec des images officielles Rockstar ou des captures de jeu), avec un budget conseillé (5 à 10 € sur 3 jours, ciblage France + Belgique, 18-34 ans, intérêts jeux vidéo / PlayStation / Xbox / GTA) et la marche à suivre pour que Noah le lance lui-même depuis l'app.
 
 ## Le récap quotidien (mcp__Gmail__send_message à l'adresse personnelle de Noah, sujet « NéoSoluce – récap du [date] »)
+Note du 26/10/2026 : les agents Vidéo et Réseaux sont en pause (voir COMMUN.md). Noah publie lui-même Reels et publications ; l'absence de script Léona, de carrousel ou de publication programmée n'est donc PAS une anomalie : ne la signale pas.
 Construis-le à partir du journal du jour et de la section « Contrôle du soir » du journal de la veille. Court, en texte simple, dans cet ordre :
 1. 🚨 En premier si besoin : réponse de Rockstar/Take-Two, demande de partenariat (avec le brouillon préparé), problème grave signalé par le Contrôle du soir.
 2. 🎬 Léona : le script du jour et le prompt OpenArt complet à copier-coller (fournis par l'agent Vidéo).
