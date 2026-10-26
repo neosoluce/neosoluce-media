@@ -77,6 +77,12 @@ Rockstar publie ses images officielles de GTA VI (captures, illustrations, fonds
 
 
 
+## Médias GTA VI de Noah (Google Drive)
+- Où : dans le Google Drive de Noah (celui connecté via mcp__Google_Drive__*), à la racine, trois archives : « GTAVI_Screenshots.zip » (~72 Mo), « GTAVI_Videos 2.zip » (~121 Mo) et « GTAVI_Artwork_Wallpapers.zip » (~235 Mo). Retrouve-les par recherche de titre (search_files, title contains 'GTAVI'). Ici, c'est une exception à la règle « Drive uniquement pour les sauvegardes ».
+- Consigne : utilise ces médias EN PRIORITÉ pour illustrer articles, posts, carrousels et Reels, en respectant les règles de la section Images officielles (crédit « © Rockstar Games », pas de contenu qui a fuité, pas de pub payante ni de lien Amazon à côté, pas de trailer republié en entier).
+- Récupération : TEST DU 26/10/2026 = ÉCHEC. mcp__Google_Drive__download_file_content refuse tout fichier de plus de 10 Mo (« File too large for download, over limit of 10 MB »), donc les trois archives sont inaccessibles telles quelles. Ne perds pas de temps à réessayer. Contournement : demande à Noah (section « Pour Noah » du journal, une seule fois) de déposer dans Drive un dossier « GTAVI_medias » avec les fichiers DÉZIPPÉS, chacun de moins de 10 Mo (images en JPG ou PNG ; vidéos coupées en clips courts compressés). Dès qu'il existe, liste-le avec search_files, télécharge les fichiers un par un avec download_file_content (base64 à décoder dans le scratchpad, pas dans le dépôt) et note dans le journal ce qui fonctionne. Tant que ce n'est pas fait, continue avec officiel/.
+- Règle absolue : ne commite JAMAIS ces images ni ces vidéos dans le dépôt Git (public, et trop lourd). Envoie-les directement vers la médiathèque WordPress (outils mcp__WordPress_com__*) ou vers l'outil concerné (Canva, Metricool). Dans le dépôt, tu peux seulement noter les NOMS des fichiers utilisés dans officiel-utilisees.txt.
+
 ## Exactitude : faits souvent mal relayés
 - Changement de personnage Lucia/Jason : n'écris jamais qu'on peut changer de personnage librement « à tout moment ». Certaines missions imposent le personnage (Rob Nelson, Rockstar, interview Famitsu relayée par PC Gamer le 1er septembre 2026). Formule correcte : on peut alterner entre Lucia et Jason, mais certaines missions imposent l'un ou l'autre.
 - Doublage : aucun doublage français de GTA VI n'est annoncé. N'écris jamais « VF » ou « voix françaises » comme acquis ; parle de sous-titres/textes en français seulement s'ils sont confirmés par une source officielle.
