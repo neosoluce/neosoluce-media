@@ -114,14 +114,16 @@ def cmd_split(a):
         found = pick_longest(inner, len(segs) - 1)
         if len(found) == len(segs) - 1:
             marks = [lead] + [(x[0] + x[1]) / 2 for x in found] + [tail]
+            speech_end = [x[0] for x in found] + [tail]
             mode = "silences"
         else:  # repli : proportionnel au nombre de caractères dits
             n = [len(x[1]) for x in segs]; tot = sum(n); marks = [lead]
             for k in n:
                 marks.append(marks[-1] + (tail - lead) * k / tot)
+            speech_end = marks[1:]
             mode = "proportionnel"
         t = dict(date=d, wav=os.path.basename(wav), duree=dur, debut_voix=lead, fin_voix=tail, mode=mode,
-                 segments=[dict(type=segs[i][0], debut=marks[i], fin=marks[i + 1]) for i in range(len(segs))])
+                 segments=[dict(type=segs[i][0], debut=marks[i], fin=marks[i + 1], fin_parole=speech_end[i]) for i in range(len(segs))])
         json.dump(t, open(os.path.join(a.out, d + ".json"), "w"), indent=1)
         print(d, f"{dur:.1f} s", mode, [round(m, 2) for m in marks])
 
@@ -141,7 +143,7 @@ def font(p, s):
 
 
 def wrap_px(d, text, f, maxw):
-    words, lines, cur = text.split(), [], ""
+    words, lines, cur = text.split(" "), [], ""
     for w in words:
         t = (cur + " " + w).strip()
         if d.textlength(t, font=f) <= maxw or not cur:
@@ -153,10 +155,16 @@ def wrap_px(d, text, f, maxw):
     return lines
 
 
+def nbsp(text):
+    """Espaces insécables de la typographie française : jamais de « : » ou « ? » seul en début de ligne."""
+    text = re.sub(r" ([:;?!»])", "\u00a0\\1", text)
+    return re.sub(r"« ", "«\u00a0", text)
+
+
 def text_block(text, size, maxw=920, fill=WHITE, stroke=8, fnt=BLACK, line_gap=1.18, align="center"):
     f = font(fnt, size)
     tmp = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
-    lines = wrap_px(tmp, text, f, maxw)
+    lines = wrap_px(tmp, nbsp(text), f, maxw)
     lh = int(size * line_gap)
     img = Image.new("RGBA", (W, lh * len(lines) + stroke * 2 + 10), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
@@ -168,22 +176,28 @@ def text_block(text, size, maxw=920, fill=WHITE, stroke=8, fnt=BLACK, line_gap=1
 
 
 def chunks(text, maxc=44):
-    """Découpe le texte affiché en morceaux de 1 ou 2 lignes (sous-titres par groupe de mots)."""
-    words, out, cur = text.split(), [], ""
-    for w in words:
-        t = (cur + " " + w).strip()
-        if len(t) > maxc and cur:
-            out.append(cur); cur = w
+    """Découpe le texte affiché en morceaux équilibrés de 2 lignes au plus (sous-titres par groupe de mots),
+    en coupant de préférence après une ponctuation."""
+    words = []
+    for w in text.split():  # ponctuation française et nombres collés au mot voisin
+        num = re.fullmatch(r"(\d+[,.]?\d*|III|IV|VI|X\|S)[.,;:]?", w)
+        if words and (re.fullmatch(r"[:;?!»]+[.,]?", w) or words[-1] == "«" or re.fullmatch(r"\d+[,.]?\d*", words[-1])
+                      or (num and words[-1].split()[-1] in ("PlayStation", "trailer", "GTA", "Redemption", "Series"))):
+            words[-1] += " " + w
         else:
-            cur = t
-        if re.search(r"[.!?:;]$", w) and len(cur) > 18:
+            words.append(w)
+    k = max(1, -(-len(text) // maxc))
+    target = len(text) / k
+    out, cur = [], ""
+    for i, w in enumerate(words):
+        cur = (cur + " " + w).strip()
+        left = len(words) - i - 1
+        punct = bool(re.search(r"[.!?:;,]$", w))
+        short = (len(w) <= 3 and not punct) or (cur.count("«") > cur.count("»") and len(cur) < target * 1.3)
+        if left and not short and len(out) < k - 1 and (len(cur) >= target or (punct and len(cur) >= target * 0.6)):
             out.append(cur); cur = ""
     if cur:
         out.append(cur)
-    # fusionne un dernier morceau trop court
-    if len(out) > 1 and len(out[-1]) < 12:
-        last = out.pop()
-        out[-1] += " " + last
     return out
 
 
@@ -315,7 +329,7 @@ def cmd_render(a):
         parts = chunks(ecran)
         n = sum(len(p) for p in parts)
         t0 = t["debut"] if i else 0
-        span = (t["fin"] - SEG_PAUSE / 2) - t0
+        span = t.get("fin_parole", t["fin"] - SEG_PAUSE / 2) - t0
         for p in parts:
             d = span * len(p) / n
             subs.append((i, t0, text_block(p, 66, stroke=8)))

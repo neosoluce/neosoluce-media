@@ -290,24 +290,32 @@ qu'il en faut une par semaine. Les revenus du site (pub, affiliation) restent la
    build/gen.py et tpl.html les affichent déjà avec un bouton Copier.
 Variables : NEOSOLUCE_STOCK (dossier stock), NEOSOLUCE_IMG (images officielles), NEOSOLUCE_CLIPS (clips officiels).
 
-### Statut des 14 Shorts (27/10/2026)
+### Statut des 14 Shorts (27/10/2026, soir)
+Voix validée par Noah à l'écoute : French_MovieLeadFemale, à garder.
 Scripts, faits (tous dans faits.json, aucun fait du Reel du même jour : « cloneur » remplacé par « saluer » le 07/11),
-images, titres, descriptions, légendes et commentaires épinglés : PRÊTS dans shorts/leona_shorts.json.
-Montage testé (aperçu sans voix du 28/10 : 46 s, 5,3 Mo, lisible). Vidéos finales : PAS ENCORE PRODUITES.
+images, titres, descriptions, légendes et commentaires épinglés : prêts dans shorts/leona_shorts.json.
 
 | Date | Sujet | Narration AITOPIA | Short |
 |---|---|---|---|
-| 28/10 | 5 choses à savoir sur Lucia | générée (fichier 1-5) | à monter |
-| 29/10 | Ultimate Edition | générée (fichier 1-5) | à monter |
-| 30/10 | Justice | générée (fichier 1-5) | à monter |
-| 31/10 | Lieux de Miami | générée (fichier 1-5) | à monter |
-| 01/11 | Vrai ou faux : PC | générée (fichier 1-5) | à monter |
-| 02/11 à 10/11 | Alligators, précharge, Boobie, radios, Vice City 2002/2026, Extended Look, trailer record, Cal, date de sortie | à générer (environ 14 crédits : 28/10 et 29/10) | à monter |
+| 28/10 | 5 choses à savoir sur Lucia | fichier « Léona narration Shorts 1-5 » | LIVRÉ : 49,2 s, 6,5 Mo (5 faits, plus long que prévu) |
+| 29/10 | Ultimate Edition | idem | LIVRÉ : 38,0 s, 4,2 Mo |
+| 30/10 | Justice | idem | LIVRÉ : 32,6 s, 3,7 Mo |
+| 31/10 | Lieux de Miami | idem | LIVRÉ : 33,9 s, 3,7 Mo |
+| 01/11 | Vrai ou faux : PC | idem | LIVRÉ : 33,8 s, 4,4 Mo |
+| 02/11 à 10/11 | Alligators, précharge, Boobie, radios, Vice City 2002/2026, Extended Look, trailer record, Cal, date de sortie | à générer : environ 14 crédits, soit 2 jours de crédits gratuits (Shorts 6 à 9 le 28/10, 10 à 14 le 29/10) | à monter |
 
-Blocage : le proxy de la session refuse cdn.aitopia.ai (403), le MP3 généré ne peut pas être téléchargé pour le
-montage ffmpeg. Solutions : (a) autoriser cdn.aitopia.ai dans les réglages réseau de l'environnement Claude ;
-(b) Noah ouvre le fichier dans AITOPIA sur l'iPhone, l'enregistre et le joint dans la conversation (il arrive dans
-les pièces jointes, puis `split` + `render` + `deliver`, environ 2 min de calcul par Short).
+Contrôles des 5 Shorts livrés : la narration jointe dure 196,96 s (comme le fichier généré), avec 26 pauses détectées
+qui correspondent exactement à la structure des 5 scripts (6, 4, 4, 4 et 4 pauses courtes ; 4 pauses longues de 3,8 s).
+Images extraites : sous-titres alignés sur chaque morceau, aucune faute vue. Audio : -15 LUFS, crête -1,4 dBFS,
+AAC 44,1 kHz. Les anciens Reels de ces 5 jours sont sauvegardés dans le dossier build/reels-avant-shorts/ du planning.
+
+### Procédure pour les Shorts 6 à 14 (le CDN AITOPIA est bloqué depuis la session cloud)
+1. Claude : `python3 tools/make_short.py prompt --dates <dates du jour>` puis generate_audio avec la voix ci-dessus
+   (au plus 3 000 caractères environ par jour, soit 9 à 10 crédits ; dryRun sous-estime le prix).
+2. Noah : sur l'iPhone, ouvrir AITOPIA > Créations, télécharger le MP3 de la narration et le joindre dans la
+   conversation (il arrive dans les pièces jointes).
+3. Claude : copie du fichier, contrôle de la durée et des pauses, puis `split`, `render`, contrôle de 6 images par
+   Short, `deliver`, `gen.py`, republication de la page (root = stock, fichiers modifiés seulement), commit et push.
 
 ### Critère de décision (à J+14, soit le 11/11/2026 pour le 1er Short)
 Si les 14 Shorts cumulent plus de 20 000 vues sur YouTube Shorts + TikTok + Instagram ET que les abonnés sont en
