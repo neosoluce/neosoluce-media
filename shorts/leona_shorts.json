@@ -1,0 +1,681 @@
+{
+ "voix": {
+  "modele": "minimax/speech-02-turbo",
+  "voice_id": "French_MovieLeadFemale",
+  "speed": 1.05,
+  "emotion": "happy",
+  "language_boost": "French",
+  "pause_segment": 0.8,
+  "pause_script": 3.0
+ },
+ "shorts": [
+  {
+   "date": "2026-10-28",
+   "n": 1,
+   "theme": "personnages",
+   "slug": "lucia",
+   "hook_ecran": "LUCIA SE BAT DEPUIS SES PREMIERS PAS",
+   "hook_dit": "Lucia, l'héroïne de GTA six, se bat depuis qu'elle sait marcher.",
+   "faits": [
+    {
+     "id": "lucia_pere",
+     "ecran": "1. Son père lui a appris à se battre dès ses premiers pas.",
+     "dit": "Un : son père lui a appris à se battre dès ses premiers pas.",
+     "img": "d5645b12",
+     "x": 0.6,
+     "source": "rockstargames.com/VI/lucia"
+    },
+    {
+     "id": "lucia_prison",
+     "ecran": "2. Se battre pour sa famille l'a envoyée au pénitencier de Leonida.",
+     "dit": "Deux : se battre pour sa famille l'a envoyée au pénitencier de Leonida.",
+     "img": "9a2751cd",
+     "x": 0.55,
+     "source": "rockstargames.com/VI/lucia"
+    },
+    {
+     "id": "lucia_chance",
+     "ecran": "3. Selon sa fiche officielle, un coup de chance l'a fait sortir de prison.",
+     "dit": "Trois : selon sa fiche officielle, c'est un coup de chance qui l'a fait sortir de prison.",
+     "img": "clip:Lucia_Caminos",
+     "x": 0.6,
+     "source": "rockstargames.com/VI/lucia"
+    },
+    {
+     "id": "lucia_liberty",
+     "ecran": "4. Sa mère rêve d'une vie meilleure depuis leurs années à Liberty City, la ville de GTA III et GTA IV.",
+     "dit": "Quatre : sa mère rêve d'une vie meilleure depuis leurs années à Liberty City, la ville de GTA trois et GTA quatre.",
+     "img": "e07114b1",
+     "x": 0.5,
+     "source": "rockstargames.com/VI/lucia"
+    },
+    {
+     "id": "lucia_premiere",
+     "ecran": "5. Avant elle, les héroïnes de GTA n'étaient que des personnages à choisir, sans vraie histoire.",
+     "dit": "Cinq : avant elle, les héroïnes de GTA n'étaient que des personnages à choisir, sans vraie histoire.",
+     "img": "acc86788",
+     "x": 0.5,
+     "source": "Kotaku + PC Gamer",
+     "badge": "2 SOURCES"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Lucia ou Jason ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Alors, tu joues d'abord Lucia ou Jason ?",
+   "titre": "5 choses à savoir sur Lucia, l'héroïne de GTA 6 (vérifiées)",
+   "ligne1": "Lucia se bat depuis qu'elle sait marcher : 5 faits sur l'héroïne de GTA 6.",
+   "ligne2": "Tout vient de sa fiche officielle Rockstar et de deux médias. Zéro rumeur.",
+   "article": "https://neosoluce.com/2026/10/27/gta-6-lucia-caminos/",
+   "hashtags": [
+    "#GTA6",
+    "#Lucia",
+    "#GTAVI"
+   ],
+   "question": "Tu joues d'abord Lucia ou Jason ?"
+  },
+  {
+   "date": "2026-10-29",
+   "n": 2,
+   "theme": "éditions",
+   "slug": "ultimate",
+   "hook_ecran": "ULTIMATE EDITION : CE QU'IL Y A DEDANS",
+   "hook_dit": "L'Ultimate Edition de GTA six : voici ce qu'il y a vraiment dedans.",
+   "faits": [
+    {
+     "id": "prix_ult",
+     "ecran": "Prix officiel aux États-Unis : 99,99 $.",
+     "dit": "Son prix officiel aux États-Unis : quatre-vingt-dix-neuf dollars quatre-vingt-dix-neuf.",
+     "img": "7a0c1d50",
+     "x": 0.78,
+     "source": "Business Wire (communiqué Rockstar)"
+    },
+    {
+     "id": "ultimate",
+     "ecran": "Dedans : une collection exclusive de véhicules, d'armes et de tenues premium, liée à l'histoire de Jason et Lucia.",
+     "dit": "Dedans : une collection exclusive de véhicules, d'armes et de tenues premium, liée à l'histoire de Jason et Lucia.",
+     "img": "6432eac0",
+     "x": 0.3,
+     "source": "Business Wire + rockstargames.com/VI"
+    },
+    {
+     "id": "vintage",
+     "ecran": "Bonus : le Vintage Vice City Pack est offert pour toute précommande ou achat avant le 20 novembre.",
+     "dit": "Bonus : le Vintage Vice City Pack est offert pour toute précommande ou achat avant le vingt novembre.",
+     "img": "d056ba82",
+     "x": 0.6,
+     "source": "Business Wire + rockstargames.com/VI"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Standard ou Ultimate ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Standard ou Ultimate, tu prends laquelle ?",
+   "titre": "GTA 6 Ultimate Edition : ce qu'il y a VRAIMENT dedans",
+   "ligne1": "Prix, contenu et bonus de précommande : l'Ultimate Edition de GTA 6 en 3 faits.",
+   "ligne2": "Uniquement ce que Rockstar a annoncé dans son communiqué officiel.",
+   "article": "https://neosoluce.com/gta-6-tout-savoir/",
+   "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#UltimateEdition"
+   ],
+   "question": "Standard ou Ultimate, tu prends laquelle ?"
+  },
+  {
+   "date": "2026-10-30",
+   "n": 3,
+   "theme": "musique",
+   "slug": "justice",
+   "hook_ecran": "UN GROUPE FRANÇAIS SIGNE LA MUSIQUE",
+   "hook_dit": "Un groupe français signe la musique de GTA six.",
+   "faits": [
+    {
+     "id": "justice",
+     "ecran": "C'est Justice ! La page musique officielle l'annonce : « Official Score by Justice ».",
+     "dit": "C'est Justice ! La page musique officielle l'annonce : Official Score by Justice.",
+     "img": "beb667a3",
+     "x": 0.5,
+     "source": "rockstargames.com/VI/music"
+    },
+    {
+     "id": "flower",
+     "ecran": "Le titre « Flower in a Hurricane » réunit Justice, Tame Impala, SZA et King Gizzard & The Lizard Wizard.",
+     "dit": "Le titre Flower in a Hurricane réunit Justice, Tame Impala, SZA, et King Gizzard and the Lizard Wizard.",
+     "img": "547f9fe4",
+     "x": 0.62,
+     "source": "rockstargames.com/VI/music"
+    },
+    {
+     "id": "album_34",
+     "ecran": "Et « GTA VI: The Album » réunit 34 titres originaux.",
+     "dit": "Et l'album officiel du jeu réunit trente-quatre titres originaux.",
+     "img": "c0ea0174",
+     "x": 0.5,
+     "source": "rockstargames.com/VI/music"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Tu connaissais Justice ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Et toi, tu connaissais Justice ?",
+   "titre": "Justice, groupe français, signe la musique de GTA 6",
+   "ligne1": "Justice compose la musique originale de GTA 6, c'est officiel.",
+   "ligne2": "Le single avec Tame Impala et SZA, et les 34 titres de The Album, sources à l'appui.",
+   "article": "https://neosoluce.com/gta-6-tout-savoir/",
+   "hashtags": [
+    "#GTA6",
+    "#Justice",
+    "#GTAVI"
+   ],
+   "question": "Tu connaissais Justice ?"
+  },
+  {
+   "date": "2026-10-31",
+   "n": 4,
+   "theme": "lieux",
+   "slug": "miami",
+   "hook_ecran": "CE PONT EXISTE VRAIMENT",
+   "hook_dit": "Ce pont existe vraiment, et il est dans GTA six.",
+   "faits": [
+    {
+     "id": "kfl_bridge",
+     "ecran": "C'est le Seven Mile Bridge, qui relie la Floride continentale aux Keys. Kotaku l'a repéré dans le trailer 1.",
+     "dit": "C'est le Seven Mile Bridge, qui relie la Floride continentale aux Keys. Kotaku l'a repéré dans le trailer un.",
+     "img": "dbea3f09",
+     "x": 0.55,
+     "source": "Kotaku + trailer 1 (Rockstar)"
+    },
+    {
+     "id": "kfl_southbeach",
+     "ecran": "Les immeubles Art déco du trailer 1 ? Ceux de South Beach, à Miami, selon Kotaku.",
+     "dit": "Les immeubles Art déco du trailer un ? Ceux de South Beach, à Miami, selon Kotaku.",
+     "img": "a7eee4d3",
+     "x": 0.75,
+     "source": "Kotaku + trailer 1 (Rockstar)"
+    },
+    {
+     "id": "kfl_everglades",
+     "ecran": "Et le trailer passe par les Everglades : 1,5 million d'acres de marais au sud de la Floride.",
+     "dit": "Et le trailer passe par les Everglades : un million et demi d'acres de marais, au sud de la Floride.",
+     "img": "96d90542",
+     "x": 0.3,
+     "source": "Kotaku + trailer 1 (Rockstar)"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Déjà allé en Floride ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Tu es déjà allé en Floride ?",
+   "titre": "Ces lieux de Miami sont VRAIMENT dans GTA 6",
+   "ligne1": "Seven Mile Bridge, South Beach, Everglades : les vrais lieux de Floride du trailer 1.",
+   "ligne2": "Repérés par Kotaku dans le trailer officiel de Rockstar.",
+   "article": "https://neosoluce.com/2026/10/12/gta-6-carte-leonida/",
+   "hashtags": [
+    "#GTA6",
+    "#ViceCity",
+    "#Miami"
+   ],
+   "question": "Tu es déjà allé en Floride ?"
+  },
+  {
+   "date": "2026-11-01",
+   "n": 5,
+   "theme": "vrai ou faux",
+   "slug": "pc",
+   "hook_ecran": "GTA 6 SUR PC ? VRAI OU FAUX",
+   "hook_dit": "GTA six sur PC le dix-neuf novembre ? Vérifions.",
+   "faits": [
+    {
+     "id": "plateformes",
+     "ecran": "Officiellement, GTA VI sort sur PlayStation 5 et Xbox Series X|S.",
+     "dit": "Officiellement, GTA six sort sur PlayStation cinq et Xbox Series X et S.",
+     "img": "d7132193",
+     "x": 0.5,
+     "source": "rockstargames.com/VI + Business Wire"
+    },
+    {
+     "id": "pas_pc",
+     "ecran": "Ni le site de Rockstar ni le communiqué des précommandes ne mentionnent de version PC.",
+     "dit": "Ni le site de Rockstar, ni le communiqué des précommandes, ne mentionnent de version PC.",
+     "img": "a2fe8d8c",
+     "x": 0.35,
+     "source": "rockstargames.com/VI + Business Wire"
+    },
+    {
+     "id": "ps5_best",
+     "ecran": "Le site officiel affiche même « Plays Best On PlayStation 5 ».",
+     "dit": "Et le site officiel affiche même : Plays Best On PlayStation Five.",
+     "img": "9f6fe8e8",
+     "x": 0.5,
+     "source": "rockstargames.com/VI"
+    }
+   ],
+   "fin_ecran": "Verdict : FAUX, pour l'instant · Sources sur neosoluce.com",
+   "fin_dit": "Verdict : faux, pour l'instant. Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain.",
+   "titre": "GTA 6 sur PC le 19 novembre ? Vrai ou faux",
+   "ligne1": "GTA 6 sort-il sur PC le 19 novembre ? Léona vérifie.",
+   "ligne2": "Verdict basé sur le site officiel et le communiqué des précommandes.",
+   "article": "https://neosoluce.com/2026/10/14/gta-6-pc/",
+   "hashtags": [
+    "#GTA6",
+    "#GTA6PC",
+    "#VraiOuFaux"
+   ],
+   "question": "Tu joues sur PS5, Xbox ou tu attends le PC ?"
+  },
+  {
+   "date": "2026-11-02",
+   "n": 6,
+   "theme": "faune",
+   "slug": "alligators",
+   "hook_ecran": "UN ALLIGATOR DANS UNE SUPÉRETTE",
+   "hook_dit": "Un alligator entre dans une supérette...",
+   "faits": [
+    {
+     "id": "t1_alligator",
+     "ecran": "Dans le trailer 1, un alligator franchit tranquillement la porte d'une supérette.",
+     "dit": "C'est dans le trailer un : un alligator franchit tranquillement la porte d'une supérette.",
+     "img": "1a979022",
+     "x": 0.85,
+     "source": "Trailer 1 (Rockstar) + Kotaku"
+    },
+    {
+     "id": "t1_piscine",
+     "ecran": "Le même trailer montre un alligator qu'on sort d'une piscine. Mes cousins sont partout.",
+     "dit": "Le même trailer montre un alligator qu'on sort d'une piscine. Mes cousins sont partout.",
+     "img": "1a979022",
+     "x": 0.2,
+     "zoom": 1.25,
+     "source": "Trailer 1 (Rockstar) + Kotaku"
+    },
+    {
+     "id": "img_gators",
+     "ecran": "Et une image officielle montre un 4x4 dans le marais, des alligators dans l'eau et un hélico au-dessus.",
+     "dit": "Et une image officielle montre un quatre-quatre dans le marais, des alligators dans l'eau, et un hélico au-dessus.",
+     "img": "1a979022",
+     "x": 0.55,
+     "source": "rockstargames.com/VI (image officielle)"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Tu oserais t'approcher ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Et toi, tu oserais t'approcher de mes cousins ?",
+   "titre": "Les alligators de GTA 6 (mes cousins) 🐊",
+   "ligne1": "Supérette, piscine, marais : les alligators de GTA 6 en 3 apparitions officielles.",
+   "ligne2": "Vus dans le trailer 1 et sur une image officielle Rockstar.",
+   "article": "https://neosoluce.com/2026/10/19/gta-6-activites-annexes-faune/",
+   "hashtags": [
+    "#GTA6",
+    "#Alligator",
+    "#GTAVI"
+   ],
+   "question": "Tu oserais t'approcher d'un alligator ?"
+  },
+  {
+   "date": "2026-11-03",
+   "n": 7,
+   "theme": "éditions",
+   "slug": "prechargement",
+   "hook_ecran": "INSTALLE GTA 6 UNE SEMAINE AVANT",
+   "hook_dit": "Tu peux installer GTA six une semaine avant sa sortie.",
+   "faits": [
+    {
+     "id": "preload",
+     "ecran": "Les précommandes numériques peuvent précharger le jeu dès le 12 novembre.",
+     "dit": "Les précommandes numériques peuvent précharger le jeu dès le douze novembre.",
+     "img": "fe26e785",
+     "x": 0.5,
+     "source": "Business Wire (communiqué Rockstar)"
+    },
+    {
+     "id": "code_boite",
+     "ecran": "En boîte ? Elle contient un code de téléchargement, disponible dès le 12 novembre pour précharger.",
+     "dit": "Tu as pris la version en boîte ? Elle contient un code de téléchargement, disponible dès le douze novembre pour précharger.",
+     "img": "1370491d",
+     "x": 0.5,
+     "source": "Business Wire (communiqué Rockstar)"
+    },
+    {
+     "id": "gtaplus",
+     "ecran": "Et la précommande numérique inclut un mois de GTA+, utilisable tout de suite.",
+     "dit": "Et la précommande numérique inclut un mois de GTA plus, utilisable tout de suite.",
+     "img": "1811927f",
+     "x": 0.5,
+     "source": "Business Wire (communiqué Rockstar)"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Déjà précommandé ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Tu as déjà précommandé ?",
+   "titre": "GTA 6 : précharge le jeu dès le 12 novembre",
+   "ligne1": "Tu peux installer GTA 6 une semaine avant sa sortie.",
+   "ligne2": "Préchargement, code dans la boîte et GTA+ : ce que dit le communiqué officiel.",
+   "article": "https://neosoluce.com/2026/10/17/gta-6-taille-go-place-disque/",
+   "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#PS5"
+   ],
+   "question": "Tu as déjà précommandé ?"
+  },
+  {
+   "date": "2026-11-04",
+   "n": 8,
+   "theme": "personnages",
+   "slug": "boobie",
+   "hook_ecran": "IL A TRANSFORMÉ LA RUE EN EMPIRE",
+   "hook_dit": "Il a transformé la rue en empire légal.",
+   "faits": [
+    {
+     "id": "boobie_legende",
+     "ecran": "Boobie Ike est une légende locale de Vice City… et il se comporte comme tel.",
+     "dit": "Boubi Aïke est une légende locale de Vice City, et il se comporte comme tel.",
+     "img": "d55778e3",
+     "x": 0.62,
+     "source": "rockstargames.com/VI/boobie"
+    },
+    {
+     "id": "boobie_empire",
+     "ecran": "Ses années de rue sont devenues un empire légal : immobilier, club et studio d'enregistrement.",
+     "dit": "Ses années de rue sont devenues un empire légal : immobilier, club, et studio d'enregistrement.",
+     "img": "d55778e3",
+     "x": 0.85,
+     "zoom": 1.3,
+     "source": "rockstargames.com/VI/boobie"
+    },
+    {
+     "id": "onlyraw",
+     "ecran": "Avec Dre'Quan, il a misé sur le label Only Raw Records. Il ne leur manque qu'un tube.",
+     "dit": "Avec Dré Kwane, il a misé sur le label Only Raw Records. Il ne leur manque qu'un tube.",
+     "img": "44f732da",
+     "x": 0.4,
+     "source": "rockstargames.com/VI/boobie + /drequan"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Boobie : allié ou ennemi ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Boobie, allié ou ennemi ?",
+   "titre": "Boobie Ike, le vrai boss de Vice City (GTA 6)",
+   "ligne1": "Boobie Ike a transformé la rue en empire légal : 3 faits officiels.",
+   "ligne2": "Tout vient de sa fiche officielle sur le site de Rockstar.",
+   "article": "https://neosoluce.com/2026/10/13/gta-6-personnages/",
+   "hashtags": [
+    "#GTA6",
+    "#BoobieIke",
+    "#ViceCity"
+   ],
+   "question": "Boobie, allié ou ennemi ?"
+  },
+  {
+   "date": "2026-11-05",
+   "n": 9,
+   "theme": "musique",
+   "slug": "radios",
+   "hook_ecran": "UNE RADIO DE 2002 REVIENT",
+   "hook_dit": "Une radio de deux mille deux revient dans GTA six.",
+   "faits": [
+    {
+     "id": "radios6",
+     "ecran": "6 radios déjà dévoilées : Cocoteo, Back Country, AfroBank FM, The Chamber, Flash FM et Dirty South Classics.",
+     "dit": "Six radios sont déjà dévoilées : Cocotéo, Back Country, Afrobank FM, The Chamber, Flash FM, et Dirty South Classics.",
+     "img": "beb667a3",
+     "x": 0.5,
+     "source": "rockstargames.com/VI/music + Newswire"
+    },
+    {
+     "id": "flashfm",
+     "ecran": "Rockstar présente Flash FM comme « l'institution de Vice City » de la pop, avec Robyn et Alex.",
+     "dit": "Rockstar présente Flash FM comme l'institution pop de Vice City, avec Robyn et Alex.",
+     "img": "547f9fe4",
+     "x": 0.3,
+     "source": "rockstargames.com/VI/music"
+    },
+    {
+     "id": "flash_2002",
+     "ecran": "Et Flash FM existait déjà dans GTA Vice City, en 2002.",
+     "dit": "Et Flash FM existait déjà dans GTA Vice City, en deux mille deux.",
+     "img": "c0ea0174",
+     "x": 0.45,
+     "source": "Kotaku + rockstargames.com/VI/music",
+     "badge": "2 SOURCES"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Ta radio préférée ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Quelle radio tu écoutes en premier ?",
+   "titre": "Une radio de 2002 revient dans GTA 6 (les 6 radios)",
+   "ligne1": "Les 6 radios confirmées de GTA 6, dont une qui revient de Vice City.",
+   "ligne2": "Sources : la page musique officielle de Rockstar et Kotaku.",
+   "article": "https://neosoluce.com/gta-6-tout-savoir/",
+   "hashtags": [
+    "#GTA6",
+    "#FlashFM",
+    "#GTAVI"
+   ],
+   "question": "Quelle radio tu écoutes en premier ?"
+  },
+  {
+   "date": "2026-11-06",
+   "n": 10,
+   "theme": "Vice City d'hier",
+   "slug": "vicecity",
+   "hook_ecran": "VICE CITY : 2002 VS 2026",
+   "hook_dit": "En deux mille deux, un seul héros. En deux mille vingt-six...",
+   "faits": [
+    {
+     "id": "duo_vs_solo",
+     "ecran": "En 2002, on suivait un seul homme. En 2026, un duo : Jason et Lucia.",
+     "dit": "En deux mille deux, on suivait un seul homme. En deux mille vingt-six, un duo : Jason et Lucia.",
+     "img": "02225793",
+     "x": 0.5,
+     "source": "rockstargames.com/games/vicecity + /VI"
+    },
+    {
+     "id": "vc_80s",
+     "ecran": "Le Vice City de 2002 plongeait dans les années 80 : cheveux XXL, excès et costumes pastel.",
+     "dit": "Le Vice City de deux mille deux plongeait dans les années quatre-vingt : cheveux XXL, excès, et costumes pastel.",
+     "img": "7ca50a69",
+     "x": 0.62,
+     "source": "rockstargames.com/games/vicecity"
+    },
+    {
+     "id": "vc_etat",
+     "ecran": "Aujourd'hui, Vice City n'est plus seule : c'est le cœur de tout un État, Leonida.",
+     "dit": "Aujourd'hui, Vice City n'est plus seule : c'est le cœur de tout un État, Leonida.",
+     "img": "9452f730",
+     "x": 0.5,
+     "source": "rockstargames.com/VI"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Team 2002 ou team 2026 ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Team deux mille deux, ou team deux mille vingt-six ?",
+   "titre": "Vice City 2002 vs GTA 6 : ce qui a changé",
+   "ligne1": "Vice City en 2002 et en 2026 : un héros, une époque, une carte.",
+   "ligne2": "Comparaison faite uniquement avec les textes officiels de Rockstar.",
+   "article": "https://neosoluce.com/2026/10/22/gta-6-vice-city/",
+   "hashtags": [
+    "#GTA6",
+    "#ViceCity",
+    "#GTAVI"
+   ],
+   "question": "Team 2002 ou team 2026 ?"
+  },
+  {
+   "date": "2026-11-07",
+   "n": 11,
+   "theme": "gameplay",
+   "slug": "extended-look",
+   "hook_ecran": "TU PEUX CARESSER LES CHIENS",
+   "hook_dit": "Dans GTA six, tu peux caresser les chiens.",
+   "faits": [
+    {
+     "id": "chiens",
+     "ecran": "C'est montré dans l'Extended Look : on peut caresser les chiens qu'on croise.",
+     "dit": "C'est montré dans l'Extended Look : on peut caresser les chiens qu'on croise.",
+     "img": "4717540f",
+     "x": 0.45,
+     "source": "PC Gamer + Kotaku",
+     "badge": "2 SOURCES"
+    },
+    {
+     "id": "saluer",
+     "ecran": "Par défaut, tu peux aussi saluer… ou provoquer les passants.",
+     "dit": "Par défaut, tu peux aussi saluer, ou provoquer, les passants.",
+     "img": "aec7638a",
+     "x": 0.55,
+     "source": "PC Gamer + Kotaku",
+     "badge": "2 SOURCES"
+    },
+    {
+     "id": "profil",
+     "ecran": "Et un « Criminal Profile » suit ta façon d'agir, comme l'honneur de Red Dead Redemption 2.",
+     "dit": "Et un profil criminel suit ta façon d'agir, comme l'honneur dans Red Dead Redemption deux.",
+     "img": "6ab6f12d",
+     "x": 0.5,
+     "source": "PC Gamer + Kotaku",
+     "badge": "2 SOURCES"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Gentil ou méchant ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Tu seras gentil, ou méchant ?",
+   "titre": "GTA 6 : 3 nouveautés vues dans l'Extended Look",
+   "ligne1": "Caresser les chiens, saluer les passants, profil criminel : 3 nouveautés de GTA 6.",
+   "ligne2": "Chaque info est confirmée par deux médias (PC Gamer et Kotaku).",
+   "article": "https://neosoluce.com/2026/10/12/gta-6-gameplay-tout-ce-quon-sait/",
+   "hashtags": [
+    "#GTA6",
+    "#ExtendedLook",
+    "#GTAVI"
+   ],
+   "question": "Tu seras gentil ou méchant ?"
+  },
+  {
+   "date": "2026-11-08",
+   "n": 12,
+   "theme": "trailers",
+   "slug": "record-trailer",
+   "hook_ecran": "475 MILLIONS DE VUES EN 24 H",
+   "hook_dit": "Quatre cent soixante-quinze millions de vues en vingt-quatre heures.",
+   "faits": [
+    {
+     "id": "t2_475",
+     "ecran": "C'est le chiffre annoncé par Rockstar pour le trailer 2, toutes plateformes confondues.",
+     "dit": "C'est le chiffre annoncé par Rockstar pour le trailer deux, toutes plateformes confondues.",
+     "img": "edf58535",
+     "x": 0.5,
+     "source": "VGC + The Hollywood Reporter"
+    },
+    {
+     "id": "t2_biggest",
+     "ecran": "Rockstar l'a qualifié de plus gros lancement vidéo de tous les temps.",
+     "dit": "Rockstar l'a qualifié de plus gros lancement vidéo de tous les temps.",
+     "img": "f4b7245a",
+     "x": 0.5,
+     "source": "VGC + The Hollywood Reporter"
+    },
+    {
+     "id": "netflix",
+     "ecran": "Et l'Extended Look a été diffusé d'abord sur Netflix, le 27 août 2026.",
+     "dit": "Et l'Extended Look a été diffusé d'abord sur Netflix, le vingt-sept août deux mille vingt-six.",
+     "img": "aee33319",
+     "x": 0.5,
+     "source": "PC Gamer + Kotaku",
+     "badge": "2 SOURCES"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Vu combien de fois ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Tu l'as vu combien de fois, ce trailer ?",
+   "titre": "475 millions de vues : le trailer le plus vu de l'histoire",
+   "ligne1": "475 millions de vues en 24 heures pour le trailer 2 de GTA 6.",
+   "ligne2": "Chiffres annoncés par Rockstar, relayés par VGC et The Hollywood Reporter.",
+   "article": "https://neosoluce.com/2026/10/15/gta-6-trailers/",
+   "hashtags": [
+    "#GTA6",
+    "#Trailer2",
+    "#GTAVI"
+   ],
+   "question": "Tu l'as vu combien de fois, ce trailer ?"
+  },
+  {
+   "date": "2026-11-09",
+   "n": 13,
+   "theme": "personnages",
+   "slug": "cal",
+   "hook_ecran": "IL SE MÉFIE DES OISEAUX",
+   "hook_dit": "Il trouve que les oiseaux volent un peu trop bien.",
+   "faits": [
+    {
+     "id": "cal_oiseaux",
+     "ecran": "Cal trouve qu'il y a « beaucoup trop d'oiseaux qui volent en formation parfaite ».",
+     "dit": "Cal trouve qu'il y a beaucoup trop d'oiseaux qui volent en formation parfaite.",
+     "img": "clip:Cal_Hampton",
+     "x": 0.5,
+     "source": "rockstargames.com/VI/cal"
+    },
+    {
+     "id": "cal_internet",
+     "ecran": "Sa réplique officielle : « Et si tout ce qu'il y a sur Internet était vrai ? »",
+     "dit": "Sa réplique officielle : et si tout ce qu'il y a sur Internet était vrai ?",
+     "img": "b3a08f9c",
+     "x": 0.45,
+     "source": "rockstargames.com/VI/cal"
+    },
+    {
+     "id": "cal_garde",
+     "ecran": "Chez lui, il écoute les communications des garde-côtes, quelques bières à la main.",
+     "dit": "Chez lui, il écoute les communications des garde-côtes, quelques bières à la main.",
+     "img": "c6258487",
+     "x": 0.5,
+     "source": "rockstargames.com/VI/cal"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Toi aussi tu as un Cal ?",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Toi aussi, tu as un pote comme Cal ?",
+   "titre": "Cal, le complotiste de GTA 6 🕵️",
+   "ligne1": "Cal se méfie des oiseaux, d'Internet… et écoute les garde-côtes.",
+   "ligne2": "3 faits tirés de sa fiche officielle Rockstar.",
+   "article": "https://neosoluce.com/2026/10/13/gta-6-personnages/",
+   "hashtags": [
+    "#GTA6",
+    "#Cal",
+    "#GTAVI"
+   ],
+   "question": "Toi aussi tu as un pote comme Cal ?"
+  },
+  {
+   "date": "2026-11-10",
+   "n": 14,
+   "theme": "date de sortie",
+   "slug": "date-sortie",
+   "hook_ecran": "GTA 6 DEVAIT SORTIR EN MAI",
+   "hook_dit": "GTA six devait sortir le vingt-six mai deux mille vingt-six.",
+   "faits": [
+    {
+     "id": "report_mai",
+     "ecran": "En mai 2025, Take-Two affichait la sortie au 26 mai 2026, sur PS5 et Xbox Series X|S.",
+     "dit": "En mai deux mille vingt-cinq, Take-Two affichait la sortie au vingt-six mai deux mille vingt-six, sur PS cinq et Xbox Series.",
+     "img": "83a2c478",
+     "x": 0.5,
+     "source": "Take-Two, résultats financiers (sec.gov)"
+    },
+    {
+     "id": "report_nov",
+     "ecran": "La date a ensuite glissé au 19 novembre 2026 : celle qu'affiche aujourd'hui Rockstar.",
+     "dit": "La date a ensuite glissé au dix-neuf novembre deux mille vingt-six : celle qu'affiche aujourd'hui Rockstar.",
+     "img": "3c235b51",
+     "x": 0.5,
+     "source": "rockstargames.com/VI + Business Wire"
+    },
+    {
+     "id": "fy27",
+     "ecran": "Dès mai 2025, Take-Two le plaçait dans son exercice fiscal 2027 : d'avril 2026 à mars 2027.",
+     "dit": "Et dès mai deux mille vingt-cinq, Take-Two le plaçait dans son exercice fiscal deux mille vingt-sept : d'avril deux mille vingt-six à mars deux mille vingt-sept.",
+     "img": "bd7746ab",
+     "x": 0.5,
+     "source": "Take-Two, résultats financiers (sec.gov)"
+    }
+   ],
+   "fin_ecran": "Les sources sont sur neosoluce.com · Rendez-vous le 19 novembre !",
+   "fin_dit": "Les sources sont sur Néo Soluce point com. Abonne-toi pour l'info vérifiée de demain. Rendez-vous le dix-neuf novembre !",
+   "titre": "GTA 6 devait sortir en mai : l'histoire de la date",
+   "ligne1": "GTA 6 devait sortir le 26 mai 2026. Voici comment on est arrivé au 19 novembre.",
+   "ligne2": "Sources : les résultats financiers de Take-Two et le site officiel.",
+   "article": "https://neosoluce.com/2026/10/12/gta-6-date-heure-sortie/",
+   "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#DateDeSortie"
+   ],
+   "question": "Tu le lances le 19 novembre à quelle heure ?"
+  }
+ ]
+}

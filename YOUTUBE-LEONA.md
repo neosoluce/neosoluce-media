@@ -261,3 +261,55 @@ Source : Aide YouTube, « Overview of the expanded YouTube Partner Programme »,
 
 Lecture pour NéoSoluce : avec des Shorts quotidiens, le seuil des heures de visionnage viendra surtout des vidéos longues ; c'est pour ça
 qu'il en faut une par semaine. Les revenus du site (pub, affiliation) restent la première source : chaque vidéo renvoie vers neosoluce.com.
+
+## 14. Shorts gratuits de test (28/10 au 10/11/2026) : production du 27/10/2026
+
+### Voix de Léona (à garder TOUJOURS identique)
+- AITOPIA, modèle `minimax/speech-02-turbo`, `voice_id` : **French_MovieLeadFemale**, `speed` 1.05, `emotion` happy,
+  `language_boost` French. Ne PAS passer `output_format` dans `input` (AITOPIA le remplace et la génération échoue).
+- Pauses : `<#0.8#>` entre les morceaux d'un script, `<#3.0#>` entre deux scripts (respectées, vérifié sur le test).
+- Prix réel constaté : le dryRun annonce 3 crédits, mais le prix dépend de la longueur : environ 3 crédits pour
+  1 000 caractères (test de 232 caractères : 1 crédit ; 2 622 caractères : 8 crédits ; 3 619 caractères : 11 crédits,
+  refusé). Les 14 scripts font 7 076 caractères, soit environ 21 crédits : 3 jours de crédits gratuits, pas 1.
+- Voix non encore écoutée (fichier non téléchargeable depuis la session, voir plus bas) : Noah valide à l'écoute
+  dans AITOPIA (Créations, « Léona narration Shorts 1-5 ») ; si elle ne convient pas, essayer French_FemaleAnchor.
+
+### Recette de montage (tools/make_short.py, scripts dans shorts/leona_shorts.json)
+1. `python3 tools/make_short.py prompt --dates D1,D2,...` : texte de la narration longue à donner à generate_audio.
+2. `python3 tools/make_short.py split narration.mp3 --dates D1,D2,... --out work/` : découpe par silencedetect
+   (les N-1 plus longs silences séparent les scripts, puis les morceaux de chaque script ; repli proportionnel).
+3. `python3 tools/make_short.py render --date D --work work/ --out work/D.mp4` (`--fake` : aperçu sans voix).
+   0 à 2,5 s (ou fin de l'accroche) : Léona (tête seule, sans le buste) en zoom léger + accroche en gros ;
+   puis une image ou un clip officiel par fait (Ken Burns, clip au ralenti x0,5 puis figé), sous-titres par groupes
+   de mots calés sur la voix, pastille cyan « VÉRIFIÉ » (jaune « 2 SOURCES »), « Source : … » sous le sous-titre,
+   « © Rockstar Games » en haut ; fin : Léona + « Les sources sont sur neosoluce.com » + la question.
+   Zones sûres : textes entre y=230 et y=1560, rien dans la colonne de droite des boutons. Pas de musique.
+   H.264 veryfast CRF 23 (maxrate 2,4 Mb/s), 30 ips, voix loudnorm -15 LUFS en AAC 128k, 30 s minimum, < 15 Mo.
+4. `python3 tools/make_short.py deliver --date D --video work/D.mp4` : remplace jours/D/reel.mp4, ajoute titre,
+   description, légendes TikTok et Instagram, commentaire épinglé dans legende.txt et calendrier.json (clé `short`) ;
+   build/gen.py et tpl.html les affichent déjà avec un bouton Copier.
+Variables : NEOSOLUCE_STOCK (dossier stock), NEOSOLUCE_IMG (images officielles), NEOSOLUCE_CLIPS (clips officiels).
+
+### Statut des 14 Shorts (27/10/2026)
+Scripts, faits (tous dans faits.json, aucun fait du Reel du même jour : « cloneur » remplacé par « saluer » le 07/11),
+images, titres, descriptions, légendes et commentaires épinglés : PRÊTS dans shorts/leona_shorts.json.
+Montage testé (aperçu sans voix du 28/10 : 46 s, 5,3 Mo, lisible). Vidéos finales : PAS ENCORE PRODUITES.
+
+| Date | Sujet | Narration AITOPIA | Short |
+|---|---|---|---|
+| 28/10 | 5 choses à savoir sur Lucia | générée (fichier 1-5) | à monter |
+| 29/10 | Ultimate Edition | générée (fichier 1-5) | à monter |
+| 30/10 | Justice | générée (fichier 1-5) | à monter |
+| 31/10 | Lieux de Miami | générée (fichier 1-5) | à monter |
+| 01/11 | Vrai ou faux : PC | générée (fichier 1-5) | à monter |
+| 02/11 à 10/11 | Alligators, précharge, Boobie, radios, Vice City 2002/2026, Extended Look, trailer record, Cal, date de sortie | à générer (environ 14 crédits : 28/10 et 29/10) | à monter |
+
+Blocage : le proxy de la session refuse cdn.aitopia.ai (403), le MP3 généré ne peut pas être téléchargé pour le
+montage ffmpeg. Solutions : (a) autoriser cdn.aitopia.ai dans les réglages réseau de l'environnement Claude ;
+(b) Noah ouvre le fichier dans AITOPIA sur l'iPhone, l'enregistre et le joint dans la conversation (il arrive dans
+les pièces jointes, puis `split` + `render` + `deliver`, environ 2 min de calcul par Short).
+
+### Critère de décision (à J+14, soit le 11/11/2026 pour le 1er Short)
+Si les 14 Shorts cumulent plus de 20 000 vues sur YouTube Shorts + TikTok + Instagram ET que les abonnés sont en
+hausse sur les 3 plateformes : proposer à Noah de passer à Léona animée et parlante (AITOPIA Pro, 29 $ par mois).
+Sinon : rester sur le format gratuit (voix + images) et changer les sujets ou les accroches.
