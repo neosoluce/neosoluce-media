@@ -85,6 +85,7 @@ Rockstar publie ses images officielles de GTA VI (captures, illustrations, fonds
 - Utilise-les EN PRIORITÉ pour l'image mise en avant et l'illustration des articles, en respectant les règles de la section Images officielles (crédit « © Rockstar Games » en légende).
 - Si la recherche « gtavi- » dans la médiathèque ne renvoie rien, fais comme avant (dossier officiel/ du dépôt) et note-le dans le journal.
 - Rappel : ne commite jamais d'images dans le dépôt public (seulement des noms de fichiers).
+- Exception (feu vert du 27/10/2026) : nos propres créations destinées au site (infographies NéoSoluce, jamais une image Rockstar) peuvent être commitées dans medias-site/, pour être téléversées sur WordPress avec source_url (URL raw GitHub). Première : medias-site/neosoluce-leonida-regions-confirmees.jpg (article 33).
 
 ## Exactitude : faits souvent mal relayés
 - Changement de personnage Lucia/Jason : n'écris jamais qu'on peut changer de personnage librement « à tout moment ». Certaines missions imposent le personnage (Rob Nelson, Rockstar, interview Famitsu relayée par PC Gamer le 1er septembre 2026). Formule correcte : on peut alterner entre Lucia et Jason, mais certaines missions imposent l'un ou l'autre.
