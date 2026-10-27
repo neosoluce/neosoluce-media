@@ -86,6 +86,25 @@ Les 5 sujets les plus demandés : heure de sortie et jouer avant ; prix le plus 
 - Zéro enregistrement sur les Reels Instagram : il manque du contenu « à garder » (listes pratiques, checklists).
 - Le site sans nouvel article depuis le 23/10 : le trafic a été divisé par 7 en une semaine.
 
+## Search Console (données réelles)
+Source : Google Search Console, propriété neosoluce.com, du 01/10 au 24/10/2026 (lue le 27/10).
+
+| Requête | Impressions | Clics | Position moyenne |
+|---|---|---|---|
+| sortie gta 6 belgique | 25 | 0 | 6,1 |
+| quand sort gta 6 en belgique | 13 | 1 | 5,3 |
+| sortie gta 6 suisse | 12 | 1 | 8,6 |
+| gta 6 suisse | 11 | 1 | 8,0 |
+| gta 6 sortie belgique | 17 | 0 | 5,9 |
+| gta 6 date de sortie belgique | 10 | 0 | 6,2 |
+| date de sortie gta 6 belgique | 7 | 0 | 4,7 |
+| gta6 belgique | 4 | 0 | 7,8 |
+| gta 6 luxembourg | 1 | 0 | 7,0 |
+
+Pages concernées : l'article 5 (/2026/10/12/gta-6-date-heure-sortie/) pour les requêtes sur la date en Belgique, et l'ancien article 78 (gta-6-belgique-suisse-quebec-francophonie, fusionné dans l'article 5 avec une redirection 301) pour les requêtes sur la Suisse et le Luxembourg.
+
+Interprétation : la niche Belgique, Suisse et francophonie hors France fonctionne. Le site apparaît déjà en position 5 à 8 sur ces recherches, alors qu'il est tout jeune, mais le taux de clic est presque nul (3 clics pour une centaine d'impressions sur ces requêtes). Le titre et la méta de l'article 5 ne répondaient pas assez à la recherche : ils ont été réécrits le 27/10 (titre avec « Belgique » et « Suisse », méta qui donne la date), avec une section dédiée et deux questions de FAQ. Les volumes restent faibles : à suivre chaque lundi avant d'en tirer des conclusions chiffrées.
+
 ## Suivi (agent Stratégie, chaque lundi)
 | Date | Vues site (semaine) | Meilleure publication réseaux | Changements dans la file |
 |---|---|---|---|

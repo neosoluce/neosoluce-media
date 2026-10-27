@@ -17,3 +17,6 @@ Note du 26/10/2026 : les agents Vidéo et Réseaux sont en pause (voir COMMUN.md
 
 ## Vérification hebdomadaire des doublons (chaque lundi)
 Avant de réordonner la file, liste tous les articles et pages (posts.list et pages.list, status « publish,draft,future »), avec ID, titre, slug et mot-clé principal. Cherche deux contenus qui répondent à la même intention de recherche (par exemple taille ou préchargement, codes de triche, checklist avant la sortie, carte, personnages, véhicules, armes, police, téléphone, Vice City, trailers, précommande ou prix). Compare aussi chaque entrée non publiée de la file avec l'existant et avec les autres entrées : si l'intention est déjà couverte, transforme l'entrée en « MISE À JOUR de l'article ID X » (même slug, aucun nouvel article) ou fusionne-la. Ne supprime rien : écris les doublons déjà publiés dans le journal du jour, avec une proposition de fusion et de redirection, pour décision de Noah.
+
+## Search Console (chaque lundi)
+Chaque lundi, lire console_get_search_analytics (outil Manifold gratuit, propriété sc-domain:neosoluce.com) : requêtes en position 4 à 15 avec un taux de clic faible → optimiser le titre et la méta ; nouvelles requêtes → ajouter à la file de rédaction.
