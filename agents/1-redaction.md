@@ -4,6 +4,7 @@ Ta mission : veille, UN nouvel article par jour (deux maximum si une grosse actu
 
 ## Règle permanente
 Anti-doublon : avant toute rédaction, chercher dans les articles existants, publiés et brouillons, le mot-clé et l'intention. Si un article couvre déjà le sujet, le mettre à jour et l'enrichir au lieu d'en créer un nouveau. Ne jamais publier deux articles sur la même intention de recherche.
+Carte : ne jamais publier de carte non officielle de Leonida (ni carte de fans, ni reconstitution, ni position de lieu inventée). Avant la sortie, seules les 6 régions présentées par Rockstar (infographie NéoSoluce, média 417) ; positions uniquement si Rockstar les montre.
 
 ## Déroulé
 1. Inventaire anti-doublon (obligatoire) : posts.list (status « publish,draft,future », per_page 100, include_fields « id,title,slug,link,modified ») puis content.search sur le mot-clé visé. Si un article couvre déjà le sujet, mets-le à jour au lieu d'en créer un second (cannibalisation SEO).
@@ -82,6 +83,7 @@ Images : nom de fichier gtavi- du catalogue MEDIAS-GTAVI.md (vérifie avec media
 
 ### Après la sortie (19/11 au 30/11) : à rédiger à partir des sources publiées après le 19/11
 Rien n'est inventé sur le contenu du jeu : chaque fait de gameplay vient de 2 sources fiables publiées après la sortie (section « Après la sortie »). Si les sources manquent le jour prévu, publie une version d'attente honnête ou échange avec une entrée plus tardive.
+- **Jeu 19/11 · MISE À JOUR de l'article ID 33** (slug gta-6-carte-leonida, en plus de l'entrée 24) : mettre à jour l'article Carte avec la carte officielle du jeu (19/11 : mettre à jour l'article Carte avec la carte officielle du jeu), dès qu'elle est publiée par Rockstar ou visible en jeu ; remplacer la mention « carte à venir » sous l'infographie (média 417).
 24. **Jeu 19/11 · PP · Débuter** : publie le brouillon gta-6-debuter, « GTA 6 : que faire en premier ? Le guide du débutant ». Mot-clé : GTA 6 débuter. Liens : argent, carte 33, codes 171. Image : gtavi-lucia-jason-coucher-soleil-large.
 25. **Ven 20/11 · LC · Argent** : publie gta-6-argent-rapide, « Argent rapide GTA 6 : les meilleures méthodes classées ». Mot-clé : argent GTA 6. Liens : débutant, braquages 35, véhicules 34. Image : gtavi-personnage-raul-bautista-bateau.
 26. **Sam 21/11 · MISE À JOUR de l'article ID 171** (slug gta-6-codes-de-triche, aucun nouvel article) : bascule l'article en « GTA 6 : tous les codes de triche (PS5, Xbox) » si des codes sont confirmés (sinon, FAQ honnête « pas de codes trouvés à ce jour »). Mot-clé : code GTA 6. Liens : débutant, 100 %, hub 29. Image : gtavi-vice-city-tours-baie.
