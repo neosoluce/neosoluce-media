@@ -1,3 +1,5 @@
+**ABANDONNÉ le 28/10/2026 par Noah : ne pas produire de Shorts Léona.**
+
 # Chaîne YouTube NéoSoluce présentée par Léona (concept, 27/10/2026)
 
 Objectif : lancer une chaîne YouTube francophone sur GTA VI (sortie le 19/11/2026), présentée par Léona
