@@ -302,7 +302,16 @@ images, titres, descriptions, légendes et commentaires épinglés : prêts dans
 | 30/10 | Justice | idem | LIVRÉ : 32,6 s, 3,7 Mo |
 | 31/10 | Lieux de Miami | idem | LIVRÉ : 33,9 s, 3,7 Mo |
 | 01/11 | Vrai ou faux : PC | idem | LIVRÉ : 33,8 s, 4,4 Mo |
-| 02/11 à 10/11 | Alligators, précharge, Boobie, radios, Vice City 2002/2026, Extended Look, trailer record, Cal, date de sortie | à générer : environ 14 crédits, soit 2 jours de crédits gratuits (Shorts 6 à 9 le 28/10, 10 à 14 le 29/10) | à monter |
+| 02/11 | Alligators | fichier « Léona narration Shorts 6-10 » (généré le 28/10/2026) | à monter |
+| 03/11 | Précharge | idem | à monter |
+| 04/11 | Boobie Ike | idem | à monter |
+| 05/11 | Radios | idem | à monter |
+| 06/11 | Vice City 2002 / 2026 | idem | à monter |
+| 07/11 à 10/11 | Extended Look, trailer record, Cal, date de sortie | à générer (Shorts 11 à 14, environ 7 crédits) : crédits gratuits du 29/10 | à monter |
+
+Narration Shorts 6 à 10 (28/10/2026) : 2 454 caractères, 199,04 s, 3,2 Mo, 8 crédits dépensés (dryRun annonçait 3), solde restant 2 sur 10.
+Voix identique aux Shorts 1 à 5. Aucun projet AITOPIA n'existe sur le compte (liste vide) : l'asset est dans Créations, sans projet.
+Lien : https://scotty.aitopia.ai/chat/2a150d1b-3b11-4a28-91fb-5cc6eaf22357
 
 Contrôles des 5 Shorts livrés : la narration jointe dure 196,96 s (comme le fichier généré), avec 26 pauses détectées
 qui correspondent exactement à la structure des 5 scripts (6, 4, 4, 4 et 4 pauses courtes ; 4 pauses longues de 3,8 s).
