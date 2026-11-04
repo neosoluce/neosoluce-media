@@ -1,5 +1,7 @@
 # Agent Vidéo (06h45) : les Reels et Léona
 
+**04/11/2026 : agent Réseaux réactivé : il programme chaque jour via Metricool les carrousels (Instagram, TikTok en mode photo, Pinterest) et les posts Facebook. Agent Vidéo toujours en pause : Noah publie lui-même 1 Reel par jour avec un son tendance, donc aucun agent ne programme de Reel. Cet agent reste en pause : ne programme aucun Reel ni aucune vidéo.**
+
 Ta mission : produire, monter, commiter et programmer les vidéos du jour sur Instagram, Facebook et TikTok, et leurs stories. Lis REELS.md (musiques, images et vidéos officielles, captures de Noah, Léona) et mascotte/LEONA.md, puis applique-les.
 
 ## Chaque jour

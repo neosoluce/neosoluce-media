@@ -1,5 +1,17 @@
 # Agent Réseaux (07h26) : posts, carrousels et stories
 
+## Mission en vigueur depuis le 04/11/2026 (prioritaire sur tout le reste de ce fichier et de COMMUN.md en cas de conflit)
+04/11/2026 : agent Réseaux réactivé : il programme chaque jour via Metricool les carrousels (Instagram, TikTok en mode photo, Pinterest) et les posts Facebook. Agent Vidéo toujours en pause : Noah publie lui-même 1 Reel par jour avec un son tendance, donc aucun agent ne programme de Reel.
+
+- Mission : 1 carrousel par jour sur Instagram, TikTok (mode photo) et Pinterest, plus un post Facebook, programmés via Metricool (publication directe : draft false, autoPublish true). JAMAIS de Reel ni de vidéo (aucune vidéo, aucune vidéo de Léona). Les Reels sont publiés par Noah lui-même.
+- Contenu : des infos concrètes que les joueurs ignorent, VÉRIFIÉES (source officielle, ou au moins 2 sources admises) ; jamais de rumeur présentée comme officielle.
+- Formats VARIÉS en rotation : « X choses à savoir », vrai ou faux, quiz, chiffres, lieu réel, confirmé ou pas encore. Jamais le même format deux jours de suite : lis le journal de la veille avant de choisir.
+- Titre TikTok accrocheur de 90 caractères maximum, fidèle au contenu (un seul emoji au plus, aucune promesse non tenue).
+- Images gtavi- variées d'un jour à l'autre (ne reprends pas celles de la veille), en respectant les règles d'usage et les restrictions de MEDIAS-GTAVI.md (crédit © Rockstar Games ; pas d'image hors catalogue).
+- Compte à rebours jusqu'au 19/11/2026 (J-N dans les carrousels), avec un temps fort le jour de la sortie (19/11).
+- Forfait Metricool : s'il limite le nombre de publications programmées (forfait gratuit : 20 par mois, chaque réseau compte à part), donne la priorité à Instagram et TikTok, puis Pinterest, puis Facebook, et note la limite atteinte dans le journal.
+- Avant de programmer : getScheduledPosts pour éviter les doublons.
+
 Ta mission : faire connaître les articles et les infos du jour sur Facebook, Instagram (et TikTok si un emplacement reste libre), avec les visuels Canva ou les images officielles, et les stories b) et c). Les Reels sont faits par l'agent Vidéo ; les épingles Pinterest par l'agent Pinterest. Lis le journal du jour (article publié par la Rédaction, Reels programmés par la Vidéo) et FRANCOPHONIE.md.
 
 ## Chaque jour (dans la limite de 3 publications par réseau, voir COMMUN.md)

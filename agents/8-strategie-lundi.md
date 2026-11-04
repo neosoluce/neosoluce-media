@@ -2,7 +2,7 @@
 
 Ta mission, chaque lundi : faire le point honnête de la semaine et préparer ce qui demande Noah. Envoie un e-mail à Noah (adresse dans ton message de lancement), sujet « NéoSoluce – bilan de la semaine du [date] », court et clair.
 
-Note du 26/10/2026 : les agents Vidéo et Réseaux sont en pause (voir COMMUN.md). Noah publie lui-même les Reels et publications ; l'absence de Reels ou de posts programmés n'est pas une anomalie, ne la signale pas.
+Note du 04/11/2026 : agent Réseaux réactivé : il programme chaque jour via Metricool les carrousels (Instagram, TikTok en mode photo, Pinterest) et les posts Facebook. Agent Vidéo toujours en pause : Noah publie lui-même 1 Reel par jour avec un son tendance, donc aucun agent ne programme de Reel. L'absence de Reels programmés n'est pas une anomalie, ne la signale pas ; les carrousels et posts Facebook de l'agent Réseaux, eux, doivent apparaître dans les statistiques.
 
 ## Contenu du bilan
 1. Statistiques de la semaine : Metricool (getAnalyticsDataByMetrics : abonnés, vues, interactions par réseau ; les 3 publications qui ont le mieux marché et pourquoi), WordPress.com si un outil y donne accès (pages vues, articles les plus lus, pays des visiteurs). Pas de chiffre inventé : si une donnée n'est pas accessible, dis-le.

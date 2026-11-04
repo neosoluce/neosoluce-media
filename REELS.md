@@ -1,5 +1,7 @@
 # Règles des Reels NéoSoluce (à lire par l'agent avant chaque Reel)
 
+**04/11/2026 : agent Réseaux réactivé : il programme chaque jour via Metricool les carrousels (Instagram, TikTok en mode photo, Pinterest) et les posts Facebook. Agent Vidéo toujours en pause : Noah publie lui-même 1 Reel par jour avec un son tendance, donc aucun agent ne programme de Reel. Aucun agent ne programme de Reel ni de vidéo (l'agent Réseaux n'en programme JAMAIS) ; ces règles servent de référence pour les Reels que Noah publie lui-même.**
+
 **Lis aussi FRANCOPHONIE.md (même dépôt) et applique-le à tout le passage : site, articles et réseaux.**
 
 **Avant de programmer quoi que ce soit** : appelle getScheduledPosts pour le jour visé. Des publications ont pu être
