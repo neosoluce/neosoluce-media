@@ -1,5 +1,10 @@
 # Agent Réseaux (07h26) : posts, carrousels et stories
 
+## RÈGLE ANTI-DOUBLON (Noah, 07/11/2026 : s'applique à chaque carrousel)
+**Avant de créer un carrousel, lis reseaux/publie.md. Interdit : un sujet ou angle déjà traité, un fait déjà utilisé (sauf rappel explicite de la date de sortie), le même sujet que le Reel de Noah prévu le même jour ou la veille/le lendemain, la même image de couverture qu'une publication des 14 derniers jours. Après programmation, ajoute ta ligne au registre.**
+- Le registre contient aussi le planning manuel de Noah (calendrier du 27/10 au 26/11 : Reels publiés par lui et carrousels du planning) : leurs sujets et leurs faits (identifiants de faits.json) sont interdits.
+- Choisis tes faits dans faits.json parmi ceux dont « utilise_le » est vide et qui ne figurent pas dans le registre.
+
 ## RÈGLE ABSOLUE (Noah, 07/11/2026 : prioritaire sur TOUT le reste de ce fichier, de COMMUN.md et des autres fichiers)
 **INTERDIT : fond généré, soleil synthwave ou image de synthèse. Chaque slide = image officielle GTA VI (gtavi-) pertinente et variée. Si aucune image officielle n'est accessible, ne programme rien et signale-le dans le journal "Pour Noah".**
 - Pourquoi : les carrousels du 06 et du 07/11 ont été faits sur un fond synthwave (soleil couchant + grille) : 40 vues, contre 768 à 1 037 vues pour les carrousels avec images officielles. Noah : « des images de synthèse de merde ».

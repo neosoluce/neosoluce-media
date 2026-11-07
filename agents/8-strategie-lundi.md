@@ -20,3 +20,6 @@ Avant de réordonner la file, liste tous les articles et pages (posts.list et pa
 
 ## Search Console (chaque lundi)
 Chaque lundi, lire console_get_search_analytics (outil Manifold gratuit, propriété sc-domain:neosoluce.com) : requêtes en position 4 à 15 avec un taux de clic faible → optimiser le titre et la méta ; nouvelles requêtes → ajouter à la file de rédaction.
+
+## Vérification anti-doublon des réseaux (chaque lundi)
+Lis reseaux/publie.md et getScheduledPosts (semaine à venir). Règle : jamais un sujet ou angle déjà traité, un fait déjà utilisé (sauf rappel explicite de la date de sortie), le même sujet que le Reel de Noah prévu le même jour ou la veille/le lendemain (calendrier du planning), ni la même image de couverture qu'une publication des 14 derniers jours. Si une publication programmée fait doublon, remplace son contenu par un sujet neuf et vérifié (faits de faits.json non encore utilisés, images officielles via tools/make_official.py carrousel), puis ajoute la ligne au registre et signale-le dans le bilan.
