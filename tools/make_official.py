@@ -8,6 +8,10 @@ crédit « © Rockstar Games » toujours visible ; image non déformée ; aucun 
 Usage :
     python3 tools/make_official.py post  officiel/<image> out.jpg "BADGE" "Titre" "Texte"
     python3 tools/make_official.py story officiel/<image> out.jpg "BADGE" "Titre" "Texte"
+    python3 tools/make_official.py carrousel cartes.json dossier_sortie/   (pages p1.jpg, p2.jpg… en 1080x1350)
+        cartes.json = [{"image": "officiel/web/<fichier>", "badge": "...", "titre": "...", "texte": "..."}, ...]
+        Chaque page a OBLIGATOIREMENT une image officielle en fond (règle de Noah du 07/11/2026 : jamais de fond
+        généré ni synthwave) : le script refuse une carte sans image existante ou une image hors de officiel/.
     python3 tools/make_official.py reel  cartes.json out.mp4 [graine]
         cartes.json = [{"image": "officiel/<fichier>", "badge": "...", "titre": "...", "texte": "..."}, ...] (3 à 6)
         ou, pour une VIDÉO officielle : {"video": "officiel/videos/<fichier>.mp4", "x": 0.5, "cadre": "remplir"|"entier",
@@ -155,5 +159,17 @@ if __name__ == "__main__":
         w, h = (1080, 1350) if mode == "post" else (1080, 1920)
         frame(sys.argv[2], w, h, sys.argv[4], sys.argv[5], sys.argv[6]).save(sys.argv[3], quality=92)
         print("ok", sys.argv[3])
+    elif mode == "carrousel":
+        cartes = json.load(open(sys.argv[2], encoding="utf-8"))
+        out_dir = sys.argv[3]
+        os.makedirs(out_dir, exist_ok=True)
+        for i, c in enumerate(cartes, 1):
+            img = c.get("image", "")
+            if not img or not os.path.isfile(img) or "officiel" not in os.path.normpath(img).split(os.sep):
+                sys.exit(f"ERREUR carte {i} : image officielle manquante ou hors de officiel/ ({img!r}). "
+                         "Fond généré INTERDIT : ne programme rien et signale-le dans le journal.")
+            out = os.path.join(out_dir, f"p{i}.jpg")
+            frame(img, 1080, 1350, c["badge"], c["titre"], c["texte"]).save(out, quality=92)
+            print("ok", out)
     elif mode == "reel":
         reel(sys.argv[2], sys.argv[3], int(sys.argv[4]) if len(sys.argv) > 4 else 11)

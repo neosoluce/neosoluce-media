@@ -1,4 +1,7 @@
-"""Visuels « épiques » NéoSoluce (illustrations IA / dessinées, jamais des images du jeu).
+"""OBSOLÈTE / INTERDIT depuis le 07/11/2026 (règle de Noah : jamais de fond généré ni image de synthèse sur les
+réseaux). Utiliser tools/make_official.py avec une image officielle.
+
+Visuels « épiques » NéoSoluce (illustrations IA / dessinées, jamais des images du jeu).
 
 Usage :
   python3 tools/make_epic.py route    [fond.jpg] [--out visuels/2026-10-16-epic-route]

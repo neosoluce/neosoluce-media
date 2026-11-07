@@ -60,7 +60,8 @@ docstring du script), qui remplace le mode `reel` de make_official.py. Vérifie 
 Noah dépose dans `officiel/` les images téléchargées sur https://www.rockstargames.com/VI/media (voir officiel/README.md).
 Rockstar/Take-Two tolère l'usage de ses contenus par les fans SANS BUT COMMERCIAL : on les utilise donc uniquement
 sur Instagram, Facebook et TikTok, en publication de fan, avec ces règles strictes :
-- jamais sur une publication sponsorisée, en partenariat, boostée, ni avec un lien Amazon ou un code promo ;
+- jamais sur une publication sponsorisée, en partenariat, boostée, ni avec un lien Amazon ou un code promo DANS la publication (un article lié qui contient des liens Amazon n'est PAS un motif pour s'en passer ; exception : promo d'un guide d'achat Amazon) ;
+- jamais de fond généré, soleil synthwave ou image de synthèse à la place d'une image officielle (règle de Noah du 07/11/2026, agents/3-reseaux.md) ;
   la légende apporte une info et pose une question ; elle peut citer « Plus d'infos : neosoluce.com » une fois, sans « achetez » ;
 - crédit « Image officielle © Rockstar Games » toujours visible (le script l'ajoute) et rappelé en fin de légende ;
 - image non déformée, pas de spoiler, jamais une image qui ne vient pas du site officiel de Rockstar ;

@@ -1,4 +1,8 @@
-"""Couvertures d'articles NéoSoluce (1600x900) : style « média tech », 100 % original.
+"""RÉSERVÉ aux couvertures d'ARTICLES du site avec lien ou encart Amazon (guide d'achat).
+INTERDIT sur les réseaux (carrousels, posts, épingles, stories) : règle de Noah du 07/11/2026, jamais de fond
+généré ni soleil synthwave ; utiliser tools/make_official.py (post ou carrousel) avec une image officielle.
+
+Couvertures d'articles NéoSoluce (1600x900) : style « média tech », 100 % original.
 
 Usage :
     python3 tools/make_cover.py covers/<slug>.jpg "BADGE" "Titre ligne 1|Titre ligne 2" "Sous-titre" <motif> [accent]

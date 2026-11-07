@@ -6,6 +6,12 @@
 - Retrouve les images dans la médiathèque avec media.list ou une recherche « gtavi- » via le connecteur WordPress (les noms de fichier ci-dessous sont ceux importés par Noah).
 - Si la recherche ne renvoie rien (images pas encore importées), fais comme avant et note-le dans le journal.
 - Les images ne sont pas dans ce dépôt public : seul ce catalogue l'est.
+- RÉSEAUX (règle de Noah du 07/11/2026) : INTERDIT : fond généré, soleil synthwave ou image de synthèse. Chaque slide = image officielle GTA VI pertinente et variée (voir agents/3-reseaux.md).
+
+## URL publiques (vérifiées le 07/11/2026 via le connecteur WordPress, media.list « gtavi- » : 40 résultats)
+- Modèle : `https://neosoluce.com/wp-content/uploads/2026/10/<nom du fichier>` (ex. https://neosoluce.com/wp-content/uploads/2026/10/gtavi-vice-city-tours-baie.jpg). IDs médiathèque 259 à 298.
+- Ces URL sont publiques : Metricool et WordPress peuvent les récupérer eux-mêmes (champ media de Metricool, source_url de WordPress).
+- Mais depuis une session cloud Claude, le proxy BLOQUE le téléchargement (neosoluce.com, neosoluce.files.wordpress.com, i0.wp.com, public-api.wordpress.com et raw.githubusercontent.com : 403, testé le 07/11). Pour incruster du texte sur une image officielle, utilise donc les images de `officiel/web/` du clone (mêmes images officielles Rockstar) avec tools/make_official.py ; pour une page sans texte, passe directement l'URL gtavi- à Metricool.
 
 | Nom du fichier | Format | Sujet | Usage conseillé |
 |---|---|---|---|
