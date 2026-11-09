@@ -111,6 +111,7 @@ Interprétation : la niche Belgique, Suisse et francophonie hors France fonction
 | 26/10 | 32 (20 au 26/10) | TikTok carte « 2x GTA 5 » (11 251 vues) | File créée (27/10 au 30/11) |
 | 02/11 | 28 (26/10 au 01/11), 14 visiteurs ; semaine précédente 56 | TikTok « Vrai ou faux : la faune de Leonida » (29/10, environ 1 660 vues cumulées), puis « chiffres officiels avant d'acheter » (30/10, environ 1 580) ; TikTok environ 5 200 vues sur la semaine contre environ 860 ; Instagram 130 à 180 personnes par Reel | Entrée 16 (page 225, bonus et prix) avancée du 11/11 au 06/11 ; entrée 11 (article 85) décalée au 11/11 |
 
+| 09/11 | 11 (02 au 09/11), 11 visiteurs ; semaine précédente 28 | TikTok « GTA 5 vs GTA 6 » (05/11, 1 046 vues), puis « Précommande » (773) et « 4 infos officielles » (752) ; Instagram, Facebook, Pinterest quasi à zéro | Aucun changement : volumes trop faibles pour conclure ; formats « confirmé / pas confirmé » à privilégier |
 ## Sources externes consultées
 - https://www.journaldugeek.com/2026/10/20/gta-6-quelle-heure-exacte-jeu-sort-france-19-novembre/
 - https://www.xboxygen.com/News/366891-gta-6-a-quelle-heure-pourra-t-on-jouer-en-france-certains-auront-12-heures-davance
