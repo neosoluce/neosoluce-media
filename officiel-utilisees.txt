@@ -18,3 +18,4 @@
 2026-11-06 | aucune image officielle (visuels maison néon, page liée avec liens Amazon) | carrousel visuels/2026-11-06-car/p1-p7
 2026-11-07 | Jason_and_Lucia_01, Vice_City_08, Vice_City_02, Jason_and_Lucia_06, Jason_and_Lucia_12, Jason_and_Lucia_09, Jason_and_Lucia_13, Jason_Duval_08 | carrousel visuels/2026-11-07-car-officiel/p1-p8 (refait le soir, remplace le fond synthwave)
 2026-11-08 | Jason_and_Lucia_02, Vice_City_01, Vice_City_03, Jason_Duval_07, Jason_Duval_09, Jason_and_Lucia_07, Jason_and_Lucia_11 | carrousel visuels/2026-11-08-car/p1-p7
+2026-11-09 | Jason_Duval_10, Jason_and_Lucia_03, Jason_and_Lucia_04, Vice_City_08, Jason_and_Lucia_13, Jason_and_Lucia_08 | carrousel visuels/2026-11-09-car/p1-p6
