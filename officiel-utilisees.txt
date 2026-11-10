@@ -20,3 +20,4 @@
 2026-11-08 | Jason_and_Lucia_02, Vice_City_01, Vice_City_03, Jason_Duval_07, Jason_Duval_09, Jason_and_Lucia_07, Jason_and_Lucia_11 | carrousel visuels/2026-11-08-car/p1-p7
 2026-11-09 | Jason_Duval_10, Jason_and_Lucia_03, Jason_and_Lucia_04, Vice_City_08, Jason_and_Lucia_13, Jason_and_Lucia_08 | carrousel visuels/2026-11-09-car/p1-p6
 2026-11-10 | Jason_and_Lucia_09, Jason_Duval_08, Vice_City_02, Jason_and_Lucia_12, Vice_City_04, Jason_and_Lucia_06, Vice_City_05 | carrousel visuels/2026-11-10-car/p1-p7
+2026-11-10 | Jason_and_Lucia_10, Vice_City_01, Jason_and_Lucia_05, Jason_Duval_07, Jason_and_Lucia_01 | carrousel actu préchargement visuels/2026-11-10-preload/p1-p5 (20h00)
