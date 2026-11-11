@@ -7,3 +7,5 @@
 Dernier passage : 2026-11-10 19h50 (Bruxelles)
 - 2026-11-11 | Rien de nouveau vérifié. Toujours « rapporté » (non publié comme fait) : déblocage à minuit heure locale le 19/11 (PS Store listings via Push Square, GamingBible, PureXbox, aucun lien Rockstar ni média admis) ; embargo des tests au 18/11 (NateTheHate + Insider Gaming, non officiel). Newswire « Launch Gallery » (nouvelles captures Vice City, « ~2 semaines avant la sortie ») : mineur, non traité.
 Dernier passage : 2026-11-11 12h50 (Bruxelles)
+- 2026-11-11 19h50 | Rien de nouveau (YouTube Rockstar inchangé).
+Dernier passage : 2026-11-11 19h50 (Bruxelles)
