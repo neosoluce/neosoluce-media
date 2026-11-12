@@ -9,3 +9,5 @@ Dernier passage : 2026-11-10 19h50 (Bruxelles)
 Dernier passage : 2026-11-11 12h50 (Bruxelles)
 - 2026-11-11 19h50 | Rien de nouveau (YouTube Rockstar inchangé).
 Dernier passage : 2026-11-11 19h50 (Bruxelles)
+- 2026-11-12 12h50 | Rien de nouveau vérifié (YouTube Rockstar inchangé, recherches presse sans source admise nouvelle).
+Dernier passage : 2026-11-12 12h50 (Bruxelles)
