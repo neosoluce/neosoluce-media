@@ -112,6 +112,7 @@ Interprétation : la niche Belgique, Suisse et francophonie hors France fonction
 | 02/11 | 28 (26/10 au 01/11), 14 visiteurs ; semaine précédente 56 | TikTok « Vrai ou faux : la faune de Leonida » (29/10, environ 1 660 vues cumulées), puis « chiffres officiels avant d'acheter » (30/10, environ 1 580) ; TikTok environ 5 200 vues sur la semaine contre environ 860 ; Instagram 130 à 180 personnes par Reel | Entrée 16 (page 225, bonus et prix) avancée du 11/11 au 06/11 ; entrée 11 (article 85) décalée au 11/11 |
 
 | 09/11 | 11 (02 au 09/11), 11 visiteurs ; semaine précédente 28 | TikTok « GTA 5 vs GTA 6 » (05/11, 1 046 vues), puis « Précommande » (773) et « 4 infos officielles » (752) ; Instagram, Facebook, Pinterest quasi à zéro | Aucun changement : volumes trop faibles pour conclure ; formats « confirmé / pas confirmé » à privilégier |
+| 16/11 | 3 (09 au 15/11), 3 visiteurs ; semaine précédente 10 | TikTok « PEGI 18 » (11/11, 774 vues, portée 650), « éditions » (772), « durée de vie » (771) ; autres réseaux sans donnée | Aucun changement (sortie le 19/11). Alerte : Search Console quasi à zéro depuis le 23/10 (impressions 48 à 80 par jour du 15 au 22/10) et 0 URL indexée sur 143 soumises (sitemap du 10/11) |
 ## Sources externes consultées
 - https://www.journaldugeek.com/2026/10/20/gta-6-quelle-heure-exacte-jeu-sort-france-19-novembre/
 - https://www.xboxygen.com/News/366891-gta-6-a-quelle-heure-pourra-t-on-jouer-en-france-certains-auront-12-heures-davance
