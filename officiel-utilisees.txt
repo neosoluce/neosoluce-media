@@ -23,3 +23,4 @@
 2026-11-10 | Jason_and_Lucia_10, Vice_City_01, Jason_and_Lucia_05, Jason_Duval_07, Jason_and_Lucia_01 | carrousel actu préchargement visuels/2026-11-10-preload/p1-p5 (20h00)
 2026-11-10 | Jason_and_Lucia_07, Vice_City_04, Jason_Duval_09, Vice_City_03, Jason_and_Lucia_11 | carrousel actu 30 FPS visuels/2026-11-10-30fps/p1-p5 (22h15)
 2026-11-11 | Jason_and_Lucia_04, Jason_Duval_10, Vice_City_08, Jason_and_Lucia_13, Jason_and_Lucia_03 | carrousel PEGI 18 visuels/2026-11-11-pegi/p1-p5
+2026-11-16 | Jason_and_Lucia_02, Jason_and_Lucia_08, Vice_City_05, Jason_and_Lucia_10, Jason_and_Lucia_05 | carrousel PS Portal visuels/2026-11-16-car/p1-p5
