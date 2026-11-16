@@ -23,3 +23,5 @@ Dernier passage : 2026-11-14 19h50 (Bruxelles)
 Dernier passage : 2026-11-15 12h43 (Bruxelles)
 - 2026-11-15 20h44 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Pre-Load Now » ; recherches sans source admise nouvelle).
 Dernier passage : 2026-11-15 20h44 (Bruxelles)
+- 2026-11-16 12h49 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Pre-Load Now » du 11/11 ; recherches sans source admise nouvelle ; embargo des tests et heures de déblocage toujours seulement rapportés).
+Dernier passage : 2026-11-16 12h49 (Bruxelles)
