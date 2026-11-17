@@ -9,7 +9,7 @@ Constat : 750 à 1 150 vues par carrousel TikTok, mais 0 clic vers le site. Un c
 5. Mesure : chaque jour, note dans le journal les visites venues de TikTok et d'Instagram (wpcom-jetpack-stats, référents) quand l'outil les donne ; sans clic après 5 posts avec boucle ouverte, changer d'angle.
 
 ## RÈGLE ANTI-DOUBLON (Noah, 07/11/2026 : s'applique à chaque carrousel)
-**Avant de créer un carrousel, lis reseaux/publie.md. Interdit : un sujet ou angle déjà traité, un fait déjà utilisé (sauf rappel explicite de la date de sortie), le même sujet que le Reel de Noah prévu le même jour ou la veille/le lendemain, la même image de couverture qu'une publication des 14 derniers jours. Après programmation, ajoute ta ligne au registre.**
+**Avant de créer un carrousel, lis reseaux/publie.md. Interdit : un sujet ou angle déjà traité, un fait déjà utilisé (sauf rappel explicite de la date de sortie), le même sujet que le Reel de Noah prévu le même jour ou la veille/le lendemain, la même image de couverture qu'une publication des 14 derniers jours. Vérifie dans officiel-utilisees.txt la PREMIÈRE image de chaque ligne des 14 derniers jours (y compris les lignes « p1 refaite ») : ta couverture doit être différente de toutes, et aussi des autres pages des 3 derniers carrousels. Jason_and_Lucia_02 est interdite en couverture jusqu'au 30/11 (refusée deux fois par Noah). Après programmation, ajoute ta ligne au registre.**
 - Le registre contient aussi le planning manuel de Noah (calendrier du 27/10 au 26/11 : Reels publiés par lui et carrousels du planning) : leurs sujets et leurs faits (identifiants de faits.json) sont interdits.
 - Choisis tes faits dans faits.json parmi ceux dont « utilise_le » est vide et qui ne figurent pas dans le registre.
 
