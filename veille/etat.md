@@ -27,3 +27,5 @@ Dernier passage : 2026-11-15 20h44 (Bruxelles)
 Dernier passage : 2026-11-16 12h49 (Bruxelles)
 - 2026-11-16 19h45 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Pre-Load Now » ; Newswire illisible via outil ; recherches sans source admise nouvelle ; heures de déblocage et embargo des tests toujours seulement rapportés). Noté : livestream YouTube de 24 h prévu le 19/11 (annonce YouTube, mineur).
 Dernier passage : 2026-11-16 19h45 (Bruxelles)
+- 2026-11-17 12h50 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Pre-Load Now » du 11/11 ; Newswire sans nouvel article ; embargo des tests et heures de déblocage toujours seulement rapportés par des sites non admis).
+Dernier passage : 2026-11-17 12h50 (Bruxelles)
