@@ -33,3 +33,5 @@ Dernier passage : 2026-11-17 12h50 (Bruxelles)
 Dernier passage : 2026-11-17 19h49 (Bruxelles)
 - 2026-11-18 11h50 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Pre-Load Now » du 11/11 ; aucun test publié par la presse admise ; embargo, heures de déblocage par pays toujours seulement rapportés). Noté, non publié : patch 1.002 (PS5 ~1,07 Go, Xbox ~2,18 Go) déployé dès le 13/11 selon KeenGamer d'après des posts X, sans notes de patch Rockstar ; « review camp » sur place rapporté par Insider Gaming (non confirmé).
 Dernier passage : 2026-11-18 11h50 (Bruxelles)
+- 2026-11-18 19h50 | Embargo des tests levé le 18/11 : Metacritic 99/100 (145 tests selon Kotaku), IGN 10/10 (TechRadar), égalité avec Ocarina of Time | Kotaku + TechRadar (IGN et Eurogamer inaccessibles via l'outil ; un titre Yahoo « mixed reception » vu dans les résultats mais illisible, non pris en compte) | article neuf 624 publié (gta-6-tests-metacritic-note-presse) ; carrousel NON programmé : quota Metricool atteint (erreur « account limit » sur FB, IG et TikTok le 18/11)
+Dernier passage : 2026-11-18 19h50 (Bruxelles)
