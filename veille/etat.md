@@ -35,3 +35,4 @@ Dernier passage : 2026-11-17 19h49 (Bruxelles)
 Dernier passage : 2026-11-18 11h50 (Bruxelles)
 - 2026-11-18 19h50 | Embargo des tests levé le 18/11 : Metacritic 99/100 (145 tests selon Kotaku), IGN 10/10 (TechRadar), égalité avec Ocarina of Time | Kotaku + TechRadar (IGN et Eurogamer inaccessibles via l'outil ; un titre Yahoo « mixed reception » vu dans les résultats mais illisible, non pris en compte) | article neuf 624 publié (gta-6-tests-metacritic-note-presse) ; carrousel NON programmé : quota Metricool atteint (erreur « account limit » sur FB, IG et TikTok le 18/11)
 Dernier passage : 2026-11-18 19h50 (Bruxelles)
+- 2026-11-18 20h00 | Tests presse publiés (article 624 enrichi) : Metacritic ~99, OpenCritic ~98, Jeuxvideo.com 19/20, IGN/GameSpot/Game Informer 10/10, Eurogamer/VGC 5/5, tous « rapportés » ; déblocage minuit local PS5 toujours seulement rapporté.
