@@ -26,3 +26,4 @@
 2026-11-16 | Jason_and_Lucia_11 (p1 refaite le soir, remplace Jason_and_Lucia_02), Jason_and_Lucia_08, Vice_City_05, Jason_and_Lucia_10, Jason_and_Lucia_05 | carrousel PS Portal visuels/2026-11-16-car/p1-p5
 2026-11-17 | Jason_and_Lucia_12 (p1 refaite le soir, remplace Jason_and_Lucia_02), Jason_and_Lucia_03, Jason_Duval_07, Vice_City_08, Jason_and_Lucia_09, Vice_City_01 | carrousel lexique visuels/2026-11-17-car/p1-p6
 2026-11-18 | Jason_Duval_08, Vice_City_03, Jason_and_Lucia_13, Vice_City_04, Jason_Duval_09, Jason_and_Lucia_06 | carrousel checklist J-1 visuels/2026-11-18-car/p1-p6
+2026-11-18 | Jason_and_Lucia_01, Jason_and_Lucia_07, Jason_Duval_10, Jason_and_Lucia_05, Jason_and_Lucia_08, Jason_and_Lucia_10 | carrousel notes de la presse visuels/2026-11-18-notes/p1-p6 (soir, publication manuelle Noah)
