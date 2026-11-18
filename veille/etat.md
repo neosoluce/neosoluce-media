@@ -31,3 +31,5 @@ Dernier passage : 2026-11-16 19h45 (Bruxelles)
 Dernier passage : 2026-11-17 12h50 (Bruxelles)
 - 2026-11-17 19h49 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Pre-Load Now » du 10/11 ; recherches sans source admise nouvelle ; heures de déblocage et embargo des tests toujours seulement rapportés).
 Dernier passage : 2026-11-17 19h49 (Bruxelles)
+- 2026-11-18 11h50 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Pre-Load Now » du 11/11 ; aucun test publié par la presse admise ; embargo, heures de déblocage par pays toujours seulement rapportés). Noté, non publié : patch 1.002 (PS5 ~1,07 Go, Xbox ~2,18 Go) déployé dès le 13/11 selon KeenGamer d'après des posts X, sans notes de patch Rockstar ; « review camp » sur place rapporté par Insider Gaming (non confirmé).
+Dernier passage : 2026-11-18 11h50 (Bruxelles)
