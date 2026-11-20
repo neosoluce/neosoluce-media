@@ -40,3 +40,5 @@ Dernier passage : 2026-11-18 19h50 (Bruxelles)
 Dernier passage : 2026-11-19 12h50 (Bruxelles)
 - 2026-11-19 19h50 | Rien de nouveau à publier (YouTube Rockstar : même vidéo du 10/11 simplement retitrée « Out Now », description officielle : jeu disponible dans le monde sur PS5 et Xbox Series X|S, dernier jour du Pack Vintage Vice City et du mois GTA+ offert, déjà couvert page 225 ; recherches presse : aucune panne ni patch du jour J confirmés par source admise).
 Dernier passage : 2026-11-19 19h50 (Bruxelles)
+- 2026-11-20 12h55 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Out Now » du 11/11 ; aucune annonce de ventes ni patch du jour J par Rockstar/Take-Two ; panne PSN évoquée seulement par Daily Beast/Tech4Gamers/Digit, non admis, non publiée).
+Dernier passage : 2026-11-20 12h55 (Bruxelles)
