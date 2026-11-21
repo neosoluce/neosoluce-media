@@ -44,3 +44,5 @@ Dernier passage : 2026-11-19 19h50 (Bruxelles)
 Dernier passage : 2026-11-20 12h55 (Bruxelles)
 - 2026-11-20 19h50 | Rien de nouveau vérifié (YouTube Rockstar inchangé, dernière vidéo « Out Now » du 10/11 ; recherches patch/ventes/Newswire sans source admise nouvelle).
 Dernier passage : 2026-11-20 19h50 (Bruxelles)
+- 2026-11-21 12h50 | Ventes jour 1 : 3,79 Md$ de ventes au détail le 19/11, annonce Rockstar/Take-Two du 20/11 (Reuters via Yahoo, TweakTown, Digital Trends). 32,5 M d'exemplaires : périmètre contradictoire (avant sortie vs précommandes + jour 1), publié « rapporté ». Estimations Sensor Tower non officielles | maj article 593 (records/chiffres) ; carrousel non programmé (quota Metricool atteint le 18/11, non retenté). YouTube Rockstar inchangé.
+Dernier passage : 2026-11-21 12h50 (Bruxelles)
